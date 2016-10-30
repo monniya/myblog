@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <title>linux自建git私有仓库 | Monniya</title>
+    <meta name="renderer" content="webkit">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="一只萌哒哒的兔子&lt;br /&gt;走在产品进阶之路">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="linux自建git私有仓库 | Monniya">
+    <meta name="twitter:description" content="一只萌哒哒的兔子&lt;br /&gt;走在产品进阶之路">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="linux自建git私有仓库 | Monniya">
+    <meta property="og:description" content="一只萌哒哒的兔子&lt;br /&gt;走在产品进阶之路">
+
+    
+    <meta name="author" content="Monniya">
+    
+    <link rel="stylesheet" href="/css/vno.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+    
+    <link rel="icon" href="/images/avatar-small.png">
+    
+
+    <meta name="generator" content="hexo"/>
+    
+    <link rel="alternate" type="application/rss+xml" title="Monniya" href="/atom.xml">
+    
+
+    <link rel="canonical" href="http://monniya.com/2015/08/30/git-private-repository/"/>
+
+    
+      
+</head>
+
+<body class="home-template no-js">
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+<header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+  <div class="panel-main">
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        <a href="/" title="前往 Monniya 的主页"><img src="/images/avatar.jpg" width="80" alt="Monniya logo" class="panel-cover__logo logo" /></a>
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for Monniya">Monniya</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">简单，美好，奋发</span>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">一只萌哒哒的兔子<br />走在产品进阶之路</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+        <div class="navigation-wrapper">
+          <div>
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li>
+            
+              <li class="navigation__item"><a href="/favourite">黄金屋</a></li>
+            
+              <li class="navigation__item"><a href="/favourite/time.html">时光机</a></li>
+            
+            </ul>
+          </nav>
+          </div>
+          <div>
+          <nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  <!-- Weibo-->
+  
+
+  <!-- Github -->
+  
+  <li class="navigation__item">
+    <a href="https://github.com/monniya" title="查看我的GitHub主页" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+
+
+<!-- Stack Overflow -->
+        
+
+  <!-- Google Plus -->
+  
+
+<!-- Facebook -->
+
+  
+<!-- Twitter -->
+
+  <li class="navigation__item">
+    <a href="https://twitter.com/onlymonniya" title="上Twitter找我" target="_blank">
+      <i class='social fa fa-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+
+  
+
+  <li class="navigation__item">
+    <a href="/atom.xml" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+
+
+  </ul>
+</nav>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay cover-purple"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single">
+
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2015-08-30T13:29:17.000Z" class="post-list__meta--date date">2015-08-30</time> &#8226; <span class="post-meta__tags tags">于&nbsp;
+  <a class="tag-link" href="/tags/敲敲码/">敲敲码</a>
+ </span>
+      <span class="page-pv">
+      &nbsp;阅读&nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+      </span> 
+   
+    </div>
+    <h1 class="post-title">linux自建git私有仓库</h1>
+  </header>
+
+  <section class="post">
+    <blockquote>
+<p>一、下载git</p>
+</blockquote>
+<p>windows版本：下载地址：<a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a><br>linux版本：安装命令：apt-get install git<br>如果是把项目推送到github上，那就在<a href="https://github.com/" target="_blank" rel="external">https://github.com/</a> 上注册用户并新建项目，这里免费用户是开源的，仓库不能私有。不过国内的<a href="http://git.oschina.net/" target="_blank" rel="external">http://git.oschina.net/</a> 上可以建私有仓库，差不多就是github的中文版。</p>
+<blockquote>
+<p>二、建立免密钥登陆</p>
+</blockquote>
+<p>ssh key可以让本地电脑和服务器间建立加密链接，每次访问无需输入用户密码。<br>如果是在github或git.oschina为了方便可以先设置为git协议而不是http协议，输入：<br>git remote -v<br>如果显示：<a href="https://git.oschina.net/monniya/demo.git(fetch" target="_blank" rel="external">https://git.oschina.net/monniya/demo.git(fetch</a>) 即用的http协议<br>可以如下改为git协议<br>remote set-url origin git@git.oschina.net:monniya/demo.git</p>
+<p>本地生成密钥：ssh-keygen -t rsa -C “monniyastyle@gmail.com”<br>一路回车即可：一般默认生成地址都在/root/.ssh/id_rsa<br>cd /root/.ssh/id_rsa 可以查看到密钥文件，把id_rsa.pub中内容添加到服务器git公钥中即可：</p>
+<p>先拷贝一份到服务器上，然后把密钥加入authorized_keys文件末尾<br>cat id_rsa.pub &gt;&gt; authorized_keys</p>
+<blockquote>
+<p>三、建立服务器仓库</p>
+</blockquote>
+<p>进入设置的你想要的仓库地址，用以下命令建立仓库：<br>git –bare init demo.git 建立裸仓库，bare仓库只存储历史和元信息，不存储文件，即看不到添加的文件<br>git init demo.git 据说可以这服务器上查看文件，但是我试过不行，不知道哪里不对</p>
+<p>空仓库设置好以后，就可以本地克隆项目啦。<br>回到本地：进去工作目录，先克隆服务器项目：git clone git@192.168.0.100:/root/git/demo.git<br>然后告诉git你的用户名和email，让他可以知道是谁本地提交了版本<br>git config –global user.name “monniya”<br>git config –global user.email “monniyastyle@gmail.com”<br>提交版本步骤：<br>git status 查看当前项目状态<br>git add -A 把所有增删改文件加入缓存，也可只加入某个文件，如git add README<br>git commit -am “first commit” 提交到本地版本，添加提交说明<br>git push origin master 提交到服务器版本<br>第一次提交报错：<br>remote: error: refusing to update checked out branch: refs/heads/master<br>remote: error: By default, updating the current branch in a non-bare repository<br>remote: error: is denied, because it will make the index and work tree inconsistent<br>remote: error: with what you pushed, and will require ‘git reset –hard’ to match<br>remote: error: the work tree to HEAD.<br>remote: error:<br>remote: error: You can set ‘receive.denyCurrentBranch’ configuration variable to<br>remote: error: ‘ignore’ or ‘warn’ in the remote repository to allow pushing into<br>remote: error: its current branch; however, this is not recommended unless you<br>remote: error: arranged to update its work tree to match what you pushed in some<br>remote: error: other way.<br>remote: error:<br>remote: error: To squelch this message and still keep the default behaviour, set<br>remote: error: ‘receive.denyCurrentBranch’ configuration variable to ‘refuse’.<br>需要在服务器项目目录执行以下语句：<br>git config –bool core.bare true</p>
+<p>出错原因在于我初始化空仓库的时候用了git init demo.git<br>避免此类错误需要用：git –bare init demo.git建立裸仓库。</p>
+
+  </section>
+
+</article>
+<section class="read-more">
+           
+    
+               
+            <div class="read-more-item">
+                <span class="read-more-item-dim">最近的文章</span>
+                <h2 class="post-list__post-title post-title"><a href="/2015/12/07/the-martian/" title="一人一世界－－火星救援">一人一世界－－火星救援</a></h2>
+                <p class="excerpt">
+                
+                昨晚一时兴起看电影，淘了两张火星救援的票，地点：金象影城。影片讲述的是一队宇航员在火星执行任务之时，突遇特大风暴需紧急撤离，其中一队员撤离时未能成功返回飞行舱，所有人都以为他已遇难，但他幸存于火星中，之后充分运用自己聪明才智展开自救，最终被营救成功的故事。
+                &hellip;
+                </p>
+                <div class="post-list__meta"><time datetime="2015-12-07T14:06:08.000Z" class="post-list__meta--date date">2015-12-07</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
+  <a class="tag-link" href="/tags/看看影/">看看影</a>
+</span><a class="btn-border-small" href="/2015/12/07/the-martian/">继续阅读</a></div>
+                           
+            </div>
+        
+        
+        
+     
+   
+   
+  
+</section>
+
+            
+<section class="post-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'monniya'; 
+      
+  var disqus_identifier = '/2015/08/30/git-private-repository/';
+  var disqus_title = 'linux自建git私有仓库';
+  var disqus_url = 'http://monniya.com/2015/08/30/git-private-repository/';
+  
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          //dsq.src = '/js/embed.js';
+          //将disqus使用https协议将大大提高显示速度
+          dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+          //dsq.src = 'https://a.disquscdn.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+            <footer class="footer">
+    <span class="footer__copyright">
+        本站点采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+    </span>
+    <span class="footer__copyright">
+        基于 <a href="http://hexo.io">Hexo</a> 搭建，感谢 <a href="https://pages.github.com/">GitHub Pages</a> 提供免费的托管服务
+    </span>
+    <span class="footer__copyright">
+        &copy; 2016 - 本站由 <a href="/">@Monniya</a> 创建,
+        使用 <a href="https://github.com/monniya/hexo-theme-new-vno ">hexo-theme-new-vno</a> 主题,
+        修改自 <a href="https://github.com/lenbo-ma/hexo-theme-vno" target="_blank">Vno</a>, 原创出自<a href="http://github.com/onevcat/vno" target="_blank">onevcat</a>
+    </span>
+</footer>
+        </div>
+    </div>
+
+    
+
+     
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-78918255-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?9cdad07c755fa23f6aced510c6760e87";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+
+
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+    
+    </script>
+    
+</body>
+</html>
