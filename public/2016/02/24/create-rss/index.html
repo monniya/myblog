@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     
-    <title>meinan | Monniya</title>
+    <title>hexo博客创建RSS订阅 | Monniya</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,11 +15,11 @@
     <meta name="description" content="一只萌哒哒的兔子&lt;br /&gt;走在产品进阶之路">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="meinan | Monniya">
+    <meta name="twitter:title" content="hexo博客创建RSS订阅 | Monniya">
     <meta name="twitter:description" content="一只萌哒哒的兔子&lt;br /&gt;走在产品进阶之路">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="meinan | Monniya">
+    <meta property="og:title" content="hexo博客创建RSS订阅 | Monniya">
     <meta property="og:description" content="一只萌哒哒的兔子&lt;br /&gt;走在产品进阶之路">
 
     
@@ -37,7 +37,7 @@
     <link rel="alternate" type="application/rss+xml" title="Monniya" href="/atom.xml">
     
 
-    <link rel="canonical" href="http://monniya.com/2016/10/30/meinan/"/>
+    <link rel="canonical" href="http://monniya.com/2016/02/24/create-rss/"/>
 
     
       
@@ -145,17 +145,32 @@
 
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="2016-10-30T10:36:41.000Z" class="post-list__meta--date date">2016-10-30</time> &#8226; <span class="post-meta__tags tags">于&nbsp; </span>
+      <time datetime="2016-02-24T10:38:13.000Z" class="post-list__meta--date date">2016-02-24</time> &#8226; <span class="post-meta__tags tags">于&nbsp;
+  <a class="tag-link" href="/tags/敲敲码/">敲敲码</a>
+ </span>
       <span class="page-pv">
       &nbsp;阅读&nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
       </span> 
    
     </div>
-    <h1 class="post-title">meinan</h1>
+    <h1 class="post-title">hexo博客创建RSS订阅</h1>
   </header>
 
   <section class="post">
-    
+    <p>rss方式阅读会在这个信息爆炸的时代为你提高阅读质量。<br>刚刚给自己的博客添加了rss地址，很简单的三步，记录如下：</p>
+<blockquote>
+<p>下载安装hexo插件</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-feed --save</div></pre></td></tr></table></figure>
+<p>安装完成后，会在<code>node_modules</code>目录下生成<code>hexo-generator-feed</code>目录：<br><img src="http://cdn.monniya.com/2016/create-rss-1.png" alt=""></p>
+<blockquote>
+<p>根目录_config.yml配置</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># RSS</div><div class="line">plugin: hexo-generator-feed</div><div class="line">#Feed Atom</div><div class="line">feed:     </div><div class="line">type: atom</div><div class="line">path: atom.xml</div><div class="line">limit: 20</div></pre></td></tr></table></figure>
+<blockquote>
+<p>主题_config.yml配置</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rss: /atom.xml</div></pre></td></tr></table></figure>
   </section>
 
 </article>
@@ -165,13 +180,18 @@
                
             <div class="read-more-item">
                 <span class="read-more-item-dim">最近的文章</span>
-                <h2 class="post-list__post-title post-title"><a href="/2016/10/30/samui/" title="samui">samui</a></h2>
+                <h2 class="post-list__post-title post-title"><a href="/2016/02/24/theme-vno-diy/" title="vno主题优化(一）">vno主题优化(一）</a></h2>
                 <p class="excerpt">
                 
                 
+前言
+
+每次换博客总是会为主题style纠结，这次换来换去盯上了onevcat大神的主题，简洁明快，基于响应式的设计风格。可惜大神用的是jekyll,幸好有另外的大神空谷幽兰写了一个基于hexo的主题.但是又很不幸发现vno主题的博主已经停止维护此主题了，为了这个漂亮的主题不被荒废，特新建了一个r
                 &hellip;
                 </p>
-                <div class="post-list__meta"><time datetime="2016-10-30T10:37:00.000Z" class="post-list__meta--date date">2016-10-30</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;</span><a class="btn-border-small" href="/2016/10/30/samui/">继续阅读</a></div>
+                <div class="post-list__meta"><time datetime="2016-02-24T11:49:47.000Z" class="post-list__meta--date date">2016-02-24</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
+  <a class="tag-link" href="/tags/敲敲码/">敲敲码</a>
+</span><a class="btn-border-small" href="/2016/02/24/theme-vno-diy/">继续阅读</a></div>
                            
             </div>
         
@@ -179,13 +199,15 @@
                
             <div class="read-more-item">
                 <span class="read-more-item-dim">更早的文章</span>
-                <h2 class="post-list__post-title post-title"><a href="/2016/10/30/angthong/" title="angthong">angthong</a></h2>
+                <h2 class="post-list__post-title post-title"><a href="/2016/02/18/cycle-and-dance/" title="春暖花开的时节，愉快的动起来吧">春暖花开的时节，愉快的动起来吧</a></h2>
                 <p class="excerpt">
                 
-                
+                天气终于慢慢温暖起来了，作为一个手脚冰冷的上辈子折翼的天使，表示骑着小折上班的时候不用戴手套耳罩围巾口罩护膝日子真的～好舒服啊～今年冬天，杭州迎来了气象建站以来最冷气温，直接吓哭宝宝。春节期间温度也是过山车一般，神奇的是，在如此任性的冬天，我竟然一次感冒都没有，嗯，身体棒棒，健康美的感觉真好。生命在
                 &hellip;
                 </p>
-                <div class="post-list__meta"><time datetime="2016-10-30T10:36:18.000Z" class="post-list__meta--date date">2016-10-30</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;</span><a class="btn-border-small" href="/2016/10/30/angthong/">继续阅读</a></div>
+                <div class="post-list__meta"><time datetime="2016-02-18T10:38:36.000Z" class="post-list__meta--date date">2016-02-18</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
+  <a class="tag-link" href="/tags/碎碎念/">碎碎念</a>
+</span><a class="btn-border-small" href="/2016/02/18/cycle-and-dance/">继续阅读</a></div>
                        
             </div>
         
@@ -201,9 +223,9 @@
   <script type="text/javascript">
       var disqus_shortname = 'monniya'; 
       
-  var disqus_identifier = '/2016/10/30/meinan/';
-  var disqus_title = 'meinan';
-  var disqus_url = 'http://monniya.com/2016/10/30/meinan/';
+  var disqus_identifier = '/2016/02/24/create-rss/';
+  var disqus_title = 'hexo博客创建RSS订阅';
+  var disqus_url = 'http://monniya.com/2016/02/24/create-rss/';
   
 
       /* * * DON'T EDIT BELOW THIS LINE * * */

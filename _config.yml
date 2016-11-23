@@ -79,3 +79,11 @@ image_stream:
   
   # Disqus
 disqus_shortname: monniya
+
+# RSS
+plugin: hexo-generator-feed
+#Feed Atom
+feed:     
+type: atom
+path: atom.xml
+limit: 20

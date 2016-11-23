@@ -3,7 +3,7 @@ title: 让你安静的离岛-涛岛
 date: 2016-04-18 18:33:43
 tags: 旅旅行
 ---
-
+[上一站 安通国家海洋公园](http://monniya.com/2016/03/03/angthong/)
 涛岛是苏梅岛的离岛，海水清澈无加，著名的潜水胜地，因为小岛形状似乌龟，又称龟岛。从苏梅岛坐船约2小时，可以提前在官网定船票（有Lomprayah和Seatran两家公司船运，L公司船相对大，行驶更平稳）,官网自助购买无压力。但因为官网需要提前3天订票，需提前规划行程，so还是携程上搞定。因为我们是涛岛，南园各待一晚，以为南园有直接回苏梅岛的票，只买了去程，其实是可以定来回的，南园需要回涛岛才能坐船，而去提前在官网定送来回免费接送。大约7点半小巴来酒店接，湄南码头距离酒店很近，8点的船，下车后需排队换票，然后排队上船，人很多，但是很有序。
 {% article %}
 {% blogpic http://cdn.monniya.com/2016/kohtao-01.jpg http://cdn.monniya.com/2016/kohtao-01.jpg 码头 %}
@@ -47,7 +47,11 @@ tags: 旅旅行
 {% blogpic http://cdn.monniya.com/2016/kohtao-22.jpg http://cdn.monniya.com/2016/kohtao-22.jpg 展开翅膀的星光餐厅 %}
 时光短暂，一夜过后，启程南园岛。我想，我会再次回到这里。下次不再如此匆忙。
 {% endarticle %}
+[下一站 记忆里的白沙滩-南园岛](http://monniya.com/2016/05/07/nangyuan/)
 
 苏梅岛系列：
 [记忆里的白沙滩-南园岛](http://monniya.com/2016/05/07/nangyuan/)
 [让你安静的离岛-涛岛](http://monniya.com/2016/04/18/kohtao/)
+[安通国家海洋公园](http://monniya.com/2016/03/03/angthong/)
+[湄南水中初体验-苏梅岛](http://monniya.com/2016/03/03/angthong/)
+[苏梅初见](http://monniya.com/2016/02/29/samui/)

@@ -157,12 +157,19 @@
   </header>
 
   <section class="post">
-    <p>每次换博客总是会为主题style纠结，这次换来换去盯上了<a href="http://onevcat.com/" target="_blank" rel="external">onevcat大神</a>的主题，简洁明快，基于响应式的设计风格。附上git地址：<a href="https://github.com/lenbo-ma/hexo-theme-vno" target="_blank" rel="external">https://github.com/lenbo-ma/hexo-theme-vno</a></p>
-<p>但总要对样式和细节写点diy配置，下面是修改笔记：</p>
-<blockquote>
-<p>主配置文件 <code>/themes/vno/_config.yml</code></p>
+    <blockquote>
+<p>前言</p>
 </blockquote>
-<p>主要做基础信息的修改，包括：首页基础信息，背景图，蒙层颜色，社交信息，博客分类等</p>
+<p>每次换博客总是会为主题style纠结，这次换来换去盯上了<a href="http://onevcat.com/" target="_blank" rel="external">onevcat大神</a>的主题，简洁明快，基于响应式的设计风格。可惜大神用的是jekyll,幸好有另外的大神<a href="http://mlongbo.com/" target="_blank" rel="external">空谷幽兰</a>写了一个基于hexo的<a href="https://github.com/lenbo-ma/hexo-theme-vno" target="_blank" rel="external">主题</a>.<br>但是又很不幸发现vno主题的博主已经停止维护此主题了，为了这个漂亮的主题不被荒废，特新建了一个<a href="https://github.com/monniya/hexo-theme-new-vno.git" target="_blank" rel="external">repository</a>进行持续修复和优化，有需要的可以从我的github上下载此<a href="https://github.com/monniya/hexo-theme-new-vno.git" target="_blank" rel="external">主题</a></p>
+<blockquote>
+<p>2.24-2更新bug 文章分页问题</p>
+</blockquote>
+<p>文章列表分页跳转有问题，点击下一页跳回主页<br>简单的解决方法是不采用分页，修改全局配置文件<code>_config.yml</code>,设置<code>per_page: 0</code> ，但是大部分人还是希望有分页的。<br>查看了下源代码，其实翻页是没问题的，只是在上面被盖了一个蒙层，原因是在<code>page</code>分页时，<code>header</code>里面的<code>css</code>没有加上<code>panel-cover–collapsed</code>样式<br>修复分页办法如下：<br>修改js文件地址：<code>themes/new-vno/source/js/main.js</code><br>具体调整：<br>在<code>$(document).ready(function()</code> 中增加下面函数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">if (window.location.pathname.substring(0, 6) == &quot;/page/&quot;) &#123;</div><div class="line">   $(&apos;.panel-cover&apos;).addClass(&apos;panel-cover--collapsed&apos;);</div><div class="line"> &#125;</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>2.24更新bug 代码块样式问题</p>
+</blockquote>
+<p> 使用代码块时，列表会超出屏幕显示，而不是自动出横向滚动条<br>调整样式代码：<br>样式位置：<code>/themes/new-vno/source/css/vno.styl</code><br>具体调整：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">table &#123;</div><div class="line">  border-collapse: collapse;</div><div class="line">  border-spacing: 0;</div><div class="line">  width: 100%;</div><div class="line">  table-layout: fixed;</div><div class="line">&#125;</div><div class="line">table td:first-child &#123;</div><div class="line">   width: 3%;</div><div class="line">   text-align: center;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>相关文章：<a href="http://monniya.com/2016/03/29/theme-vno-diy2/">vno主题优化(二) 添加上下篇导航及优化disqus速度</a><br>相关文章：<a href="http://monniya.com/2016/06/14/article-analytics/">vno主题优化(三) 添加博客统计</a></p>
 
   </section>
 
@@ -173,15 +180,15 @@
                
             <div class="read-more-item">
                 <span class="read-more-item-dim">最近的文章</span>
-                <h2 class="post-list__post-title post-title"><a href="/2016/04/18/kohtao/" title="让你安静的离岛-涛岛">让你安静的离岛-涛岛</a></h2>
+                <h2 class="post-list__post-title post-title"><a href="/2016/02/29/samui/" title="苏梅初见">苏梅初见</a></h2>
                 <p class="excerpt">
                 
-                涛岛是苏梅岛的离岛，海水清澈无加，著名的潜水胜地，因为小岛形状似乌龟，又称龟岛。从苏梅岛坐船约2小时，可以提前在官网定船票（有Lomprayah和Seatran两家公司船运，L公司船相对大，行驶更平稳）,官网自助购买无压力。但因为官网需要提前3天订票，需提前规划行程，so还是携程上搞定。因为我们是涛
+                旅行真是一件锻炼人的事情，你会遇见很多在平凡生活中遇不到的事情，看没看过的风景，用到平时早已遗忘的技能，你也会遇到很多不得不去克服的困难，语言，体力，耐力…比如看着20多个G的相片数据，理片修片就足以让人奔溃。借着相片回顾旅程，重新走一遍所有路程，重拾当时的心境。这是我第一次踏出国门的旅途，成行前各
                 &hellip;
                 </p>
-                <div class="post-list__meta"><time datetime="2016-04-18T10:33:43.000Z" class="post-list__meta--date date">2016-04-18</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
+                <div class="post-list__meta"><time datetime="2016-02-29T10:37:00.000Z" class="post-list__meta--date date">2016-02-29</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
   <a class="tag-link" href="/tags/旅旅行/">旅旅行</a>
-</span><a class="btn-border-small" href="/2016/04/18/kohtao/">继续阅读</a></div>
+</span><a class="btn-border-small" href="/2016/02/29/samui/">继续阅读</a></div>
                            
             </div>
         
@@ -189,15 +196,20 @@
                
             <div class="read-more-item">
                 <span class="read-more-item-dim">更早的文章</span>
-                <h2 class="post-list__post-title post-title"><a href="/2016/02/13/forrest-gump/" title="我心里的阿甘">我心里的阿甘</a></h2>
+                <h2 class="post-list__post-title post-title"><a href="/2016/02/24/create-rss/" title="hexo博客创建RSS订阅">hexo博客创建RSS订阅</a></h2>
                 <p class="excerpt">
                 
-                我不知道命运会将我带向何处。命运是既定的路线，还是充满偶然呢？亦或者两只都同时进行中。那漂浮的羽毛，是我们的人生吗？我不知道工作是为何？工作是为了挣钱吗，挣钱是为了生活吗，而活着又是为了什么呢？是我们是作为放牛娃的存在吗？其实，为何一定要目的而活呢？生来走一遭，真的没有为什么，你出生并不是你的选择，
+                rss方式阅读会在这个信息爆炸的时代为你提高阅读质量。刚刚给自己的博客添加了rss地址，很简单的三步，记录如下：
+
+下载安装hexo插件
+
+1npm install hexo-generator-feed --save
+安装完成后，会在node_modules目录下生成hexo-generator-
                 &hellip;
                 </p>
-                <div class="post-list__meta"><time datetime="2016-02-13T10:26:52.000Z" class="post-list__meta--date date">2016-02-13</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
-  <a class="tag-link" href="/tags/观观影/">观观影</a>
-</span><a class="btn-border-small" href="/2016/02/13/forrest-gump/">继续阅读</a></div>
+                <div class="post-list__meta"><time datetime="2016-02-24T10:38:13.000Z" class="post-list__meta--date date">2016-02-24</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
+  <a class="tag-link" href="/tags/敲敲码/">敲敲码</a>
+</span><a class="btn-border-small" href="/2016/02/24/create-rss/">继续阅读</a></div>
                        
             </div>
         
