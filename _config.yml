@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://monniya.com
+url: https://monniya.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -51,7 +51,7 @@ tag_map:
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
@@ -75,7 +75,7 @@ image_stream:
   #jquery: //cdn.bootcss.com/jquery/2.1.0/jquery.min.js
   jquery: false
   jquery_lazyload: //cdn.bootcss.com/jquery.lazyload/1.9.1/jquery.lazyload.min.js
-  img_placeholder: http://ww4.sinaimg.cn/large/e724cbefgw1etyppy7bgwg2001001017.gif
+  img_placeholder: /images/image-placeholder.gif
   
   # Disqus
 disqus_shortname: monniya
