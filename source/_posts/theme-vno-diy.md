@@ -5,7 +5,7 @@ tags: 敲敲码
 ---
 >前言
 
-每次换博客总是会为主题style纠结，这次换来换去盯上了[onevcat大神](http://onevcat.com/)的主题，简洁明快，基于响应式的设计风格。可惜大神用的是jekyll,幸好有另外的大神[空谷幽兰](http://mlongbo.com/)写了一个基于hexo的[主题](https://github.com/lenbo-ma/hexo-theme-vno).
+每次换博客总是会为主题style纠结，这次换来换去盯上了[onevcat大神](//onevcat.com/)的主题，简洁明快，基于响应式的设计风格。可惜大神用的是jekyll,幸好有另外的大神[空谷幽兰](//mlongbo.com/)写了一个基于hexo的[主题](https://github.com/lenbo-ma/hexo-theme-vno).
 但是又很不幸发现vno主题的博主已经停止维护此主题了，为了这个漂亮的主题不被荒废，特新建了一个[repository](https://github.com/monniya/hexo-theme-new-vno.git)进行持续修复和优化，有需要的可以从我的github上下载此[主题](https://github.com/monniya/hexo-theme-new-vno.git)
 
 >2.24-2更新bug 文章分页问题
@@ -40,5 +40,5 @@ table td:first-child {
    text-align: center;
 }
 ```
-相关文章：[vno主题优化(二) 添加上下篇导航及优化disqus速度](http://monniya.com/2016/03/29/theme-vno-diy2/)
-相关文章：[vno主题优化(三) 添加博客统计](http://monniya.com/2016/06/14/article-analytics/)
+相关文章：[vno主题优化(二) 添加上下篇导航及优化disqus速度](//monniya.com/2016/03/29/theme-vno-diy2/)
+相关文章：[vno主题优化(三) 添加博客统计](//monniya.com/2016/06/14/article-analytics/)

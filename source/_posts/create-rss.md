@@ -11,7 +11,7 @@ rss方式阅读会在这个信息爆炸的时代为你提高阅读质量。
 npm install hexo-generator-feed --save 
 ```
 安装完成后，会在`node_modules`目录下生成`hexo-generator-feed`目录：
-![](http://cdn.monniya.com/2016/create-rss-1.png)
+![](//cdn.monniya.com/2016/create-rss-1.png)
 >根目录_config.yml配置
 
 ```

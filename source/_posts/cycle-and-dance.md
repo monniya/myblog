@@ -17,27 +17,27 @@ tags: 碎碎念
 去小月河感受光阴的味道
 秋收时节看郊区的蔚蓝晴空和金黄麦田
 {% article %}
-{% blogpic http://cdn.monniya.com/cycle-and-dance-sjy1.jpg http://cdn.monniya.com/cycle-and-dance-sjy1.jpg 爱驾 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-sjy1.jpg //cdn.monniya.com/cycle-and-dance-sjy1.jpg 爱驾 %}
 相较于盛名之下的乌镇，小月河给我的感觉就是如小家碧玉般的古镇流水，隐于嘉兴闹市区中，走在其间，你却能感受不一样的平静。
-{% blogpic http://cdn.monniya.com/cycle-and-dance-yh1.jpg http://cdn.monniya.com/cycle-and-dance-yh1.jpg 月河微风 %}
-{% blogpic http://cdn.monniya.com/cycle-and-dance-yh3.JPG http://cdn.monniya.com/cycle-and-dance-yh3.JPG 月河暖阳 %}
-{% blogpic http://cdn.monniya.com/cycle-and-dance-mwj.JPG http://cdn.monniya.com/cycle-and-dance-mwj.JPG 梅湾落叶 %}
-{% blogpic http://cdn.monniya.com/cycle-and-dance-flh1.jpg http://cdn.monniya.com/cycle-and-dance-flh1.jpg 范蠡梅花 %}
-{% blogpic http://cdn.monniya.com/cycle-and-dance-flh2.jpg http://cdn.monniya.com/cycle-and-dance-flh2.jpg 笑颜 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-yh1.jpg //cdn.monniya.com/cycle-and-dance-yh1.jpg 月河微风 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-yh3.JPG //cdn.monniya.com/cycle-and-dance-yh3.JPG 月河暖阳 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-mwj.JPG //cdn.monniya.com/cycle-and-dance-mwj.JPG 梅湾落叶 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-flh1.jpg //cdn.monniya.com/cycle-and-dance-flh1.jpg 范蠡梅花 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-flh2.jpg //cdn.monniya.com/cycle-and-dance-flh2.jpg 笑颜 %}
 发现相机里留下了如此多的时光，就在不经意间被定格。
 后来，回到了杭州，本来想骑回来，想到100多公里路就胆怯了，最后还是找了个空闲的周末，在大巴上交了10块的大件物品费就把车子弄到了杭州。
 可惜放在楼下怕安全隐患，每天在狭小的电梯里搬上搬下，小区的大爷说，姑娘啊，这辆车对你好像太大了呀。而后我开始考虑换个小折叠车，虽然骑起来就不那么酷酷的。研究了一下发现大行的车子口碑不错，但是附近没有专卖店，倒是找到了美利达的店，试了一下飞翔系列，飞一般的感觉，车子自重很轻，从此再也不惧怕电梯上下楼了。
 这是把山地车送给小熊之前的合影。
-{% blogpic http://cdn.monniya.com/cycle-and-dance-bikes.JPG http://cdn.monniya.com/cycle-and-dance-bikes.JPG 爱驾 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-bikes.JPG //cdn.monniya.com/cycle-and-dance-bikes.JPG 爱驾 %}
 嗯，从此开启骑车时代新篇章。在杭州的日子变得忙碌不少，周末出去骑行的日子不多，倒是晚上经常出去绕几圈，沿着西溪湿地或者骑到西湖来回。
 第一次骑完西湖纪念，这也是第一次过隧道，第一次感受隧道中轰鸣的声音，以及很窄的骑车环境，需要全神贯注往前看，除了轰鸣声什么也听不见，也不敢回头，10分钟的路程感觉过得特别漫长，当我看到出口的时候第一个感受就是：再也不骑隧道了😂。第二个感觉是，这个顶灯好像海贼王里的鬼魂果实能力者释放的，让人变得极为消沉幽灵呀，乖乖，怪不得如此消沉，哈哈。
 梅灵路段绝对是骑行者的天堂，一路从玉古路植物园边骑过，杭城深秋的美景，让人流连忘返。丢脸的是第一次骑本来想绕个大圈，结果半路实在骑不动了抄近路回家。😂
 在没有通过梅灵隧道之前，基本都是上坡路，不像西湖边的道路比较平稳，真是骑不动了，在素描餐厅吃个小饭（推荐榴莲鸡）
 过了隧道，下坡路小折反而不是特别稳，飘得腿发抖。一直骑到宋城，再沿着江边往回骑，本来想顺便再绕个西湖，后来实在体力不支，就在虎跑路附近抄了隧道回城西了。
-{% blogpic http://cdn.monniya.com/cycle-and-dance-ml1.jpg http://cdn.monniya.com/cycle-and-dance-ml1.jpg 枫叶 %}
-{% blogpic http://cdn.monniya.com/cycle-and-dance-ml3.jpg http://cdn.monniya.com/cycle-and-dance-ml3.jpg 江边 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-ml1.jpg //cdn.monniya.com/cycle-and-dance-ml1.jpg 枫叶 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-ml3.jpg //cdn.monniya.com/cycle-and-dance-ml3.jpg 江边 %}
 每次去西溪，都会在那家酒吧前停下来听几首歌再走。
-{% blogpic http://cdn.monniya.com/cycle-and-dance-xxsd1.jpg http://cdn.monniya.com/cycle-and-dance-xxsd1.jpg 驻唱 %}
+{% blogpic //cdn.monniya.com/cycle-and-dance-xxsd1.jpg //cdn.monniya.com/cycle-and-dance-xxsd1.jpg 驻唱 %}
 或者骑到西湖边吹吹风看看夜景，沿着北山街，一直拐到玉泉再回骑。
 安利下骑行控app很好用，可以绘制我的骑行路线，看着地图上的圈，很有成就感。后来发现这个是丁香园郭鹏大神的杰作，膜拜。（说好学swift，教程看了一点点就没下文了，捂脸）
 后来有了apple watch，虽然一日一充有点麻烦，但看着那三个运动圈圈满的感觉还是很美好的。

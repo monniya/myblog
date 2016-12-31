@@ -3,7 +3,7 @@ title: 湄南水中初体验-苏梅岛
 date: 2016-03-02 21:36:41
 tags: 旅旅行
 ---
-[上一站 苏梅初见](http://monniya.com/2016/03/10/samui/)
+[上一站 苏梅初见](//monniya.com/2016/03/10/samui/)
 顶着烈日，拖着行李，带着被司机小宰的一点点不甘，来到了旅行第二站。湄南。
 ps，先说下出行工具选择。苏梅是摩的天下，摩托车租赁事业发达，大街小巷随处可取。30rmb一天任骑。碰上像我们一样不会骑的，除了双腿，还有突突敞篷车和出租车供你选择，前提是你得忍受昂贵的价格。突突车按人头收费，20rmb起步，出租车60rmb起步。坐惯了廉价便捷的滴滴优步，查汶到湄南10多公里400泰铢（80rmb）的价格真心不便宜。
 不过相比于目的地的优美，还是很值得的。
@@ -11,13 +11,13 @@ ps，先说下出行工具选择。苏梅是摩的天下，摩托车租赁事业
 酒店为不会摩的的同学提供山地车，点赞，欢呼雀跃。可惜白天的行程已满，等待下一次的遇见。
 这是开放式大堂，碧蓝的水池俘获我心。
 {% article %}
-{% blogpic http://cdn.monniya.com/2016/meinan-01.jpg http://cdn.monniya.com/2016/meinan-01.jpg Fair House %}
+{% blogpic //cdn.monniya.com/2016/meinan-01.jpg //cdn.monniya.com/2016/meinan-01.jpg Fair House %}
 花园式独栋mini别墅，道路蜿蜒，景色优美，风景无敌。在异国他乡，发现美的眼睛会格外雪亮，令你陶醉其中。
-{% blogpic http://cdn.monniya.com/2016/meinan-02.jpg http://cdn.monniya.com/2016/meinan-02.jpg 独栋mini别墅 %}
+{% blogpic //cdn.monniya.com/2016/meinan-02.jpg //cdn.monniya.com/2016/meinan-02.jpg 独栋mini别墅 %}
 这边很喜欢用这白色的小花（缅栀花，又称鸡蛋花）来点缀房间，细节温馨而甜蜜。
-{% blogpic http://cdn.monniya.com/2016/meinan-03.jpg http://cdn.monniya.com/2016/meinan-03.jpg me %}
+{% blogpic //cdn.monniya.com/2016/meinan-03.jpg //cdn.monniya.com/2016/meinan-03.jpg me %}
 因为不会游泳，不敢下水，在这种大环境下是及其难熬的，大海呼唤着你，泳池比基尼诱惑着你，海边的秋千，因为在水中不敢使力跳跃也尝试失败，心中无限遗憾。发现酒店自带的泳池分深浅区，泳池人很少，不必担心丢脸，终于鼓足勇气去尝试了一下，哈哈。
-{% blogpic http://cdn.monniya.com/2016/meinan-06.jpg http://cdn.monniya.com/2016/meinan-06.jpg 泳池 %}
+{% blogpic //cdn.monniya.com/2016/meinan-06.jpg //cdn.monniya.com/2016/meinan-06.jpg 泳池 %}
 跨出第一步，就此打开新世界。
 学会游泳最大的障碍就是克服自身对水的恐惧。刚下水的时候，当水位没过胸口就开始四肢僵硬，只得紧紧抓住岸边。玩耍一会后不满足岸边扑腾，动起了自学的念头。
 原来广大网友是旱鸭子的还不少，各种教程及其丰富。youtube的这个[入门视频](https://www.youtube.com/watch?v=hz0ihE_DKGA)很实用,原创Allen大师。第一步从憋气开始，第一次感受水没过鼻子，耳朵的感觉。熟悉之后学习让自己浮起来。只要敢于把脸埋在水中，放松后自动就浮成功了。接着练习呼吸，嘴巴呼气鼻子吐气，深呼慢吐。下一步是尝试游一下试试，面对池边，扑过去，然后就会了。
@@ -25,28 +25,28 @@ ps，先说下出行工具选择。苏梅是摩的天下，摩托车租赁事业
 从此爱上在水中的感觉。
 
 水中嬉戏一下午，迎来安静的晚餐，就这样静静坐着，美景相伴，享受美食和微微海风，时光在这里放慢了脚步。
-{% blogpic http://cdn.monniya.com/2016/meinan-04.jpg http://cdn.monniya.com/2016/meinan-04.jpg 海景 %}
+{% blogpic //cdn.monniya.com/2016/meinan-04.jpg //cdn.monniya.com/2016/meinan-04.jpg 海景 %}
 有一种对称的美。
-{% blogpic http://cdn.monniya.com/2016/meinan-08.jpg http://cdn.monniya.com/2016/meinan-08.jpg 餐桌 %}
+{% blogpic //cdn.monniya.com/2016/meinan-08.jpg //cdn.monniya.com/2016/meinan-08.jpg 餐桌 %}
 介绍下味觉体验：
 挞通：四种泰国特色风味小吃组成。原料大概是各种海鲜，豆子，包裹面皮，粽叶，油炸居多，配多种酱料，但味道比国内吃到的类似小吃好太多
 油炸石斑鱼：淋浇而上的酸酸辣辣甜甜的鲜三角酱是味蕾爆炸的亮点，而没有小刺的鱼肉是本人挚爱
 冬阴功：保留项目，好吃忘不了。
 鲜榨果汁：味道浓郁的椰子汁，加上西米露的点缀，棒，原谅我之前以为椰子汁是椰奶味。
 冰淇淋：泰国的本土冰淇淋比哈根达斯好吃！
-{% blogpic http://cdn.monniya.com/2016/meinan-09.jpg http://cdn.monniya.com/2016/meinan-09.jpg 晚餐 %}
+{% blogpic //cdn.monniya.com/2016/meinan-09.jpg //cdn.monniya.com/2016/meinan-09.jpg 晚餐 %}
 
-{% blogpic http://cdn.monniya.com/2016/meinan-07.jpg http://cdn.monniya.com/2016/meinan-07.jpg 海边 %}
+{% blogpic //cdn.monniya.com/2016/meinan-07.jpg //cdn.monniya.com/2016/meinan-07.jpg 海边 %}
 夜晚摄像要格外注意成品，很多照片在取景框里瞄了一眼，构图ok，回来后一看奔溃，居然比手机还模糊，就算单反也要格外注意夜间拍摄iso不能过高，三脚架不能懒，遥控器要记得用！
 出来散步，发现处处有惊喜。
 偶遇的星芒。挂在树上的繁星，闪烁在我的心尖。
-{% blogpic http://cdn.monniya.com/2016/meinan-05.jpg http://cdn.monniya.com/2016/meinan-05.jpg 星芒 %}
+{% blogpic //cdn.monniya.com/2016/meinan-05.jpg //cdn.monniya.com/2016/meinan-05.jpg 星芒 %}
 {% endarticle %}
 
 
 苏梅岛系列：
-[记忆里的白沙滩-南园岛](http://monniya.com/2016/05/07/nangyuan/)
-[让你安静的离岛-涛岛](http://monniya.com/2016/04/18/kohtao/)
-[安通国家海洋公园](http://monniya.com/2016/03/03/angthong/)
-[湄南水中初体验-苏梅岛](http://monniya.com/2016/03/03/angthong/)
-[苏梅初见](http://monniya.com/2016/02/29/samui/)
+[记忆里的白沙滩-南园岛](//monniya.com/2016/05/07/nangyuan/)
+[让你安静的离岛-涛岛](//monniya.com/2016/04/18/kohtao/)
+[安通国家海洋公园](//monniya.com/2016/03/03/angthong/)
+[湄南水中初体验-苏梅岛](//monniya.com/2016/03/03/angthong/)
+[苏梅初见](//monniya.com/2016/02/29/samui/)

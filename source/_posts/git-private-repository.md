@@ -8,7 +8,7 @@ comments: true
 
 windows版本：下载地址：https://git-scm.com/downloads
 linux版本：安装命令：apt-get install git
-如果是把项目推送到github上，那就在https://github.com/ 上注册用户并新建项目，这里免费用户是开源的，仓库不能私有。不过国内的http://git.oschina.net/ 上可以建私有仓库，差不多就是github的中文版。
+如果是把项目推送到github上，那就在https://github.com/ 上注册用户并新建项目，这里免费用户是开源的，仓库不能私有。不过国内的//git.oschina.net/ 上可以建私有仓库，差不多就是github的中文版。
 
 >二、建立免密钥登陆
 

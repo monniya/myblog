@@ -76,9 +76,9 @@ generate为生成静态文件，deploy为提交到git，现在可以去仓库中
 请使用命令：
 ``` bash
     hexo server //简写hexo s
-    ＃INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
+    ＃INFO  Hexo is running at //0.0.0.0:4000/. Press Ctrl+C to stop.
 ``` 
-即启动本地预览，访问本地地址http://0.0.0.0:4000/ 即可，修改后刷新地址即可看到效果，满意后再deploy到git发布即可
+即启动本地预览，访问本地地址//0.0.0.0:4000/ 即可，修改后刷新地址即可看到效果，满意后再deploy到git发布即可
 
 看完了helloworld就可以开始新建写自己的文章了
 新建文章命令：
@@ -100,7 +100,7 @@ Hexo 有三种自带布局：post、page 和 draft，默认post，title即为静
 ``` 
 接着就可以愉快的写作啦，这里采用markdown通用格式编写。 
 Markdown 是一种轻量级标记语言，它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。详情参见维基百科：[Markdown](https://zh.wikipedia.org/wiki/Markdown#.E4.BB.A3.E7.A0.81)
-语法支持请戳[Markdown中文文档](http://markdown-zh.readthedocs.org)
+语法支持请戳[Markdown中文文档](//markdown-zh.readthedocs.org)
 
 ok。使用github＋hexo搭建静态blog基本步骤介绍完毕了。
 

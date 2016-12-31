@@ -26,17 +26,17 @@ image_stream:
   #jquery: //cdn.bootcss.com/jquery/2.1.0/jquery.min.js
   jquery: false
   jquery_lazyload: //cdn.bootcss.com/jquery.lazyload/1.9.1/jquery.lazyload.min.js
-  img_placeholder: http://ww4.sinaimg.cn/large/e724cbefgw1etyppy7bgwg2001001017.gif
+  img_placeholder: //ww4.sinaimg.cn/large/e724cbefgw1etyppy7bgwg2001001017.gif
 </pre>
 
 >使用
 
 在博客的source目录新增favourite目录，并新建文件 <code>index.md</code>
 使用如下格式写入图片，书名和链接，大神这个插件在所有文章都可以用，所以就不用代码插入了，直接截图看看
-![ ](http://cdn.monniya.com/create-book-list-2.png )
+![ ](//cdn.monniya.com/create-book-list-2.png )
 
 我改过的样式如下：封面上书名大大的，我就去掉了文字描述，但是保留跳转链接，以及加了在读，已读的title。
-![ ](http://cdn.monniya.com/create-book-list-3.png )
+![ ](//cdn.monniya.com/create-book-list-3.png )
 
 对应的<code>/scripts/image-stream.js</code>中，修改为点击图片跳转，如下：
 ``` bash
@@ -62,11 +62,11 @@ but对于小白用户来讲，照着敲也会遇到问题，orz。下面就记�
 照着每一步都做完以后，却只显示文字，哪里出问题了呢？一个个来排除：
 1、代码确认无误 check
 2、查看html文件发现有两个地方使用img，但是<code>&lt;noscript></code>不知道什么意思，发现去了就能显示图片了。如下：
-![ ](http://cdn.monniya.com/create-book-list-1.jpg )
-google完毕后发现这里是使用了[lazyload](http://www.appelsiini.net/projects/lazyload)插件，<code>&lt;noscript></code>是用来当js脚本不起作用时显示里面的内容。soga。
+![ ](//cdn.monniya.com/create-book-list-1.jpg )
+google完毕后发现这里是使用了[lazyload](//www.appelsiini.net/projects/lazyload)插件，<code>&lt;noscript></code>是用来当js脚本不起作用时显示里面的内容。soga。
 3、查看network加载发现重复引用jQuery，分别有2.1.0和2.1.4版本的jquery.min.js，前者是这个插件带的，后者是主题引用的，将前者配置改成<code>image_stream.jquery:false</code>，将后者从body移到head中。还是没有显示。
 4、对比大神的代码和自己的代码，发现大神的<code>&lt;img></code>中多了一句，<code>style="display: block;"</code>，好吧，为什么我的没有，仔细检查了发现
 当前页的style中，对图片的class默认是<code>.hexo-image-steam-lazy {display:none;}</code>，我把这句改成<code>display:none;</code>，然后就显示了。只是不知道对于图片懒加载有没有什么影响。代码修改地址：<code>/scripts/image-stream.js</code>
 
 
-好啦，就这样我的[黄金屋](http://monniya.com/favourite/)造好啦，感谢大神。
+好啦，就这样我的[黄金屋](//monniya.com/favourite/)造好啦，感谢大神。
