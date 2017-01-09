@@ -5,7 +5,7 @@ commmet: true
 >BOOKS 
 
 {% readStream %}
-{% readItems //book.douban.com/subject/1082406/ //cdn.monniya.com/2016/book-hjsd.jpg 重新定义团队 %}
+{% readItems //monniya.com/2017/01/08/workrules/ //cdn.monniya.com/2016/book-workrules.jpg 重新定义团队 %}
 {% readItems //book.douban.com/subject/1082406/ //cdn.monniya.com/2016/book-hjsd.jpg 黄金时代 %}
 {% readItems //book.douban.com/subject/7065521/ //cdn.monniya.com/2016/book-yhdg.jpg 银河帝国 %}
 {% readItems //book.douban.com/subject/1858513/ //cdn.monniya.com/2016/book-moonsixpence.jpg 月亮和六便士 %}
