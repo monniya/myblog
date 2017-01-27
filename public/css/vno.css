@@ -6225,6 +6225,7 @@ i.fa.fa-spinner.fa-spin {
   margin: 0 auto;
   border-radius: 3px;
   text-align: center;
+  display: block;
 }
 .post pre {
   width: 95%;
