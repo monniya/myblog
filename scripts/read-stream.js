@@ -23,7 +23,7 @@ hexo.extend.tag.register('readStream', function(args, content){
   }
   result += '<div class="hexo-img-readStream">';
   result += '<style type="text/css">';
-  result += '.hexo-image-stream-lazy {display:block;}.hexo-img-readStream{width:100%;max-width:1100px;margin:3% auto}div.hexo-img-readStream readItems{ background: #fefefe;box-shadow: 0 1px 2px rgba(34, 25, 25, 0.2);margin: 0 0.5% 3%;padding: 0%;padding-bottom: 9px;display: inline-block;max-width: 42%;}div.hexo-img-readStream readItems img{padding-bottom:10px;max-width: 84%;margin-top: 0.7em;}div.hexo-img-readStream readItems figcaption{font-size:.7rem;color:#999;line-height:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align: center;}figcaption-t{font-size:.7rem;color:#c7c7c7;line-height:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}div.hexo-img-readStream small{font-size:1rem;float:right;text-transform:uppercase;color:#aaa}div.hexo-img-readStream small a{color:#666;text-decoration:none;transition:.4s color}@media screen and (max-width:750px){.hexo-img-readStream{column-gap:0}}';
+  result += '.hexo-image-stream-lazy {display:block;}.hexo-img-readStream{width:100%;max-width:1100px;margin:3% auto}div.hexo-img-readStream readItems{ background: #fefefe;box-shadow: 0 1px 2px rgba(34, 25, 25, 0.2);margin: 0 0.5% 3%;padding: 0%;padding-bottom: 9px;display: inline-block;max-width: 42%;}div.hexo-img-readStream readItems img{padding-bottom:10px;max-width: 84%;margin-top: 0.7em;}div.hexo-img-readStream readItems figcaption{font-size:.7rem;color:#999;line-height:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align: center;}div.hexo-img-readStream small{font-size:1rem;float:right;text-transform:uppercase;color:#aaa}div.hexo-img-readStream small a{color:#666;text-decoration:none;transition:.4s color}@media screen and (max-width:750px){.hexo-img-readStream{column-gap:0}}';
   result += '</style>';
   result += content;
   result += '</div>';
@@ -37,12 +37,12 @@ hexo.extend.tag.register('readItems', function(args){
   var placeholder = config['img_placeholder'];
   var imgUrl = args.shift();
   var title = args.shift();
-  
+
   var result = '<readItems>';
   result += '<a href="' + wordUrl + '" target="_blank" rel="external">'
   result += '<img class="hexo-image-stream-lazy nofancy" src="' + placeholder + '" data-original="' + imgUrl + '"/>';
   result += '<noscript><img src="' + imgUrl + '"/></noscript>' + '</a>';
-  result += '<figcaption>'+title+'</figcaption>' + '</a>';
+  result += '<figcaption>'+title+'</figcaption></a>';
   
   
 //   result += '<img class="hexo-image-stream-lazy nofancy" src="' + placeholder + '" data-original="' + imgUrl + '"/>';
