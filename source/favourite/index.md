@@ -6,6 +6,7 @@ commmet: true
 
 #### 📖2017-02 To Read List
 {% readStream %}
+{% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 我们仨 2017-02 %}
 {% readItems https://book.douban.com/subject/1313181/ https://cdn.monniya.com/2017pic/book-franklin.jpg 富兰克林自传 2017-02 %}
 {% readItems https://book.douban.com/subject/26889236/ https://cdn.monniya.com/2017pic/book-wdzysxsj.jpg 我的职业是小说家 2017-02 %}
 {% endreadStream %}
@@ -46,7 +47,7 @@ commmet: true
 >MOVIES 
 
 {% readStream %}
-
+{% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 重庆森林 %}
 {% readItems https://book.douban.com/subject/20430665/ https://cdn.monniya.com/2017pic/movie-lmys.jpg 流氓医生 %}
 {% readItems https://monniya.com/2017/02/02/duckweed/ https://cdn.monniya.com/2017pic/movie-xnxnd.jpg 新难兄难弟 %}
 {% readItems https://monniya.com/2017/02/02/duckweed/ https://cdn.monniya.com/2017pic/movie-cfpl.jpg 乘风破浪 %}
