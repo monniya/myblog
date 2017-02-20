@@ -6,17 +6,28 @@ commmet: true
 
 #### 📖2017-02 To Read List
 {% readStream %}
+{% readItems https://book.douban.com/subject/26846606/ https://cdn.monniya.com/2017pic/book-character.jpg 品格之路 2017-01 %}
 {% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 我们仨 2017-02 %}
 {% readItems https://book.douban.com/subject/1313181/ https://cdn.monniya.com/2017pic/book-franklin.jpg 富兰克林自传 2017-02 %}
 {% readItems https://book.douban.com/subject/26889236/ https://cdn.monniya.com/2017pic/book-wdzysxsj.jpg 我的职业是小说家 2017-02 %}
+{% readItems https://book.douban.com/subject/6811366/ https://cdn.monniya.com/2017pic/book-motorcyle.jpg 禅与摩托车维修艺术 2017-02 %}
+{% readItems https://book.douban.com/subject/26846606/ https://cdn.monniya.com/2017pic/book-character.jpg 品格之路 2017-01 %}
+{% endreadStream %}
+
+#### 📖2017-02 
+{% readStream %}
+
+{% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 十年一觉电影梦 2017-02 %}
+
 {% endreadStream %}
 
 #### 📖2017-01
 {% readStream %}
-{% readItems https://book.douban.com/subject/6811366/ https://cdn.monniya.com/2017pic/book-motorcyle.jpg 禅与摩托车维修艺术 2017-02 %}
-{% readItems https://book.douban.com/subject/26846606/ https://cdn.monniya.com/2017pic/book-character.jpg 品格之路 2017-01 %}
+
 {% readItems https://book.douban.com/subject/26831788/ https://cdn.monniya.com/2017pic/book-lxyds.jpg 旅行与读书 2017-01 %}
 {% readItems https://monniya.com/2017/01/08/workrules/ https://cdn.monniya.com/2017pic/book-workrules.jpg 重新定义团队 2017-01-08 %}
+{% readItems https://book.douban.com/subject/26759508/ https://cdn.monniya.com/2017pic/book-musk.jpg 硅谷钢铁侠 2017-01 %}
+
 {% endreadStream %}
 
 #### 📖2016
@@ -47,6 +58,8 @@ commmet: true
 >MOVIES 
 
 {% readStream %}
+{% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 推手 %}
+{% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 侧耳倾听 %}
 {% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 重庆森林 %}
 {% readItems https://book.douban.com/subject/20430665/ https://cdn.monniya.com/2017pic/movie-lmys.jpg 流氓医生 %}
 {% readItems https://monniya.com/2017/02/02/duckweed/ https://cdn.monniya.com/2017pic/movie-xnxnd.jpg 新难兄难弟 %}
