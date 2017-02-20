@@ -5,8 +5,9 @@ commmet: true
   
 
 {% timemachine %}
-{% part https://cdn.monniya.com/2017pic/time-life20170218.jpg https://cdn.monniya.com/2017pic/time-life20170218.jpg 安静午后 2017-02-18 %}
-{% part https://cdn.monniya.com/2017pic/time-flower20170216.jpg https://cdn.monniya.com/2017pic/time-flower20170216.jpg 开花的勿忘我 2017-02-16 %}
+{% part https://cdn.monniya.com/2017pic/20170218time-life.jpg https://cdn.monniya.com/2017pic/20170218time-life.jpg 安静午后 2017-02-18 %}
+{% part https://cdn.monniya.com/2017pic/20170216time-flower.jpg https://cdn.monniya.com/2017pic/20170216time-flower.jpg 开花的勿忘我 2017-02-16 %}
+{% part https://cdn.monniya.com/2017pic/20170128time-home.jpg https://cdn.monniya.com/2017pic/20170128time-home.jpg 老家 2017-01-28 %}
 {% part //cdn.monniya.com/2016/kohtao-18.jpg //monniya.com/2016/04/18/kohtao/ 海边黄昏 2016-03-04 %}
 {% part //cdn.monniya.com/2016/kohtao-22.jpg //monniya.com/2016/04/18/kohtao/ 星光餐厅 2016-03-04 %}
 {% part //cdn.monniya.com/2016/kohtao-14.jpg //monniya.com/2016/04/18/kohtao/ 涛岛 2016-03-04 %}
