@@ -33,7 +33,7 @@ tags: 敲敲码
                            
             </div>
         <% } %>
-        
+
         <% if (page.next){ %>       
             <div class="read-more-item">
                 <span class="read-more-item-dim">更早的文章</span>
@@ -84,12 +84,12 @@ tags: 敲敲码
 }
 
 @media all and (max-width: 960px) {
-
 .read-more-item {
   padding-top: 1.2em;
   width: 100%; 
 }
 }
+
 ```
 好了，搞定！
 
