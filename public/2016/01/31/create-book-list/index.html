@@ -186,7 +186,35 @@ image_stream:
 </blockquote>
 <p>在博客的source目录新增favourite目录，并新建文件 <code>index.md</code><br>使用如下格式写入图片，书名和链接，大神这个插件在所有文章都可以用，所以就不用代码插入了，直接截图看看<br><img src="//cdn.monniya.com/2016/create-book-list-2.png" alt=" "></p>
 <p>我改过的样式如下：封面上书名大大的，我就去掉了文字描述，但是保留跳转链接，以及加了在读，已读的title。<br><img src="//cdn.monniya.com/2016/create-book-list-3.png" alt=" "></p>
-<p>对应的<code>/scripts/image-stream.js</code>中，修改为点击图片跳转，如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">hexo.extend.tag.register(<span class="string">'figure'</span>, <span class="keyword">function</span>(args)&#123;</div><div class="line">  var imgUrl = args.shift();</div><div class="line">  //var title = args.join(<span class="string">' '</span>);</div><div class="line">  var placeholder = config[<span class="string">'img_placeholder'</span>];</div><div class="line">  var wordUrl = args.shift();</div><div class="line">  var result = <span class="string">'&lt;figure&gt;'</span>;</div><div class="line">  </div><div class="line">  result += <span class="string">'&lt;a href="'</span> + wordUrl + <span class="string">'" target="_blank" rel="external"&gt;'</span></div><div class="line">  result += <span class="string">'&lt;img class="hexo-image-steam-lazy nofancy" src="'</span> + placeholder + <span class="string">'" data-original="'</span> + imgUrl + <span class="string">'"/&gt;'</span>;</div><div class="line">  result += <span class="string">'&lt;noscript&gt;&lt;img src="'</span> + imgUrl + <span class="string">'"/&gt;&lt;/noscript&gt;'</span> + <span class="string">'&lt;/a&gt;'</span>;</div><div class="line">  //result += <span class="string">'&lt;figcaption&gt;'</span> + hexo.render.renderSync(&#123;text: title, engine: <span class="string">'markdown'</span>&#125;).replace(/&lt;p&gt;/, <span class="string">''</span>).replace(/&lt;.p&gt;/, <span class="string">''</span>) + <span class="string">'&lt;/figcaption&gt;'</span>;</div><div class="line">  result += <span class="string">'&lt;/figure&gt;'</span>;</div><div class="line">  <span class="built_in">return</span> result;</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<p>对应的<code>/scripts/image-stream.js</code>中，修改为点击图片跳转，如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span>
+<span class="line">2</span>
+<span class="line">3</span>
+<span class="line">4</span>
+<span class="line">5</span>
+<span class="line">6</span>
+<span class="line">7</span>
+<span class="line">8</span>
+<span class="line">9</span>
+<span class="line">10</span>
+<span class="line">11</span>
+<span class="line">12</span>
+<span class="line">13</span>
+<span class="line">14</span>
+</pre></td><td class="code"><pre><span class="line">hexo.extend.tag.register(<span class="string">'figure'</span>, <span class="keyword">function</span>(args)&#123;</span>
+<span class="line">  var imgUrl = args.shift();</span>
+<span class="line">  //var title = args.join(<span class="string">' '</span>);</span>
+<span class="line">  var placeholder = config[<span class="string">'img_placeholder'</span>];</span>
+<span class="line">  var wordUrl = args.shift();</span>
+<span class="line">  var result = <span class="string">'&lt;figure&gt;'</span>;</span>
+<span class="line">  </span>
+<span class="line">  result += <span class="string">'&lt;a href="'</span> + wordUrl + <span class="string">'" target="_blank" rel="external"&gt;'</span></span>
+<span class="line">  result += <span class="string">'&lt;img class="hexo-image-steam-lazy nofancy" src="'</span> + placeholder + <span class="string">'" data-original="'</span> + imgUrl + <span class="string">'"/&gt;'</span>;</span>
+<span class="line">  result += <span class="string">'&lt;noscript&gt;&lt;img src="'</span> + imgUrl + <span class="string">'"/&gt;&lt;/noscript&gt;'</span> + <span class="string">'&lt;/a&gt;'</span>;</span>
+<span class="line">  //result += <span class="string">'&lt;figcaption&gt;'</span> + hexo.render.renderSync(&#123;text: title, engine: <span class="string">'markdown'</span>&#125;).replace(/&lt;p&gt;/, <span class="string">''</span>).replace(/&lt;.p&gt;/, <span class="string">''</span>) + <span class="string">'&lt;/figcaption&gt;'</span>;</span>
+<span class="line">  result += <span class="string">'&lt;/figure&gt;'</span>;</span>
+<span class="line">  <span class="built_in">return</span> result;</span>
+<span class="line">&#125;);</span>
+</pre></td></tr></table></figure></p>
 <p>以及一些边框样式调整，不赘述。</p>
 <blockquote>
 <p>小白分割线</p>

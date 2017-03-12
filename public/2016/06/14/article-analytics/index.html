@@ -160,24 +160,80 @@
 <blockquote>
 <p>网站统计</p>
 </blockquote>
-<p>对于网站统计，<a href="https://www.google.com/intl/zh-CN/analytics/" target="_blank" rel="external">谷歌分析</a> 无疑最佳,各种酷炫功能等你去发现。<br>使用步骤：<br>1.注册一个google analytics的账户，创建一个跟踪网站，获取到跟踪ID,如下示例：<br><img src="//cdn.monniya.com/2016/article-analytics-google.jpeg" alt=""><br>2.因为之前加了<code>themes/new-vno/layout/_partial/google_analytics.ejs </code>文件，所以直接填到主题的配置文件<code>_config.yml</code>中即可,如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">google_analytics: UA-78918255-1</div></pre></td></tr></table></figure></p>
+<p>对于网站统计，<a href="https://www.google.com/intl/zh-CN/analytics/" target="_blank" rel="external">谷歌分析</a> 无疑最佳,各种酷炫功能等你去发现。<br>使用步骤：<br>1.注册一个google analytics的账户，创建一个跟踪网站，获取到跟踪ID,如下示例：<br><img src="//cdn.monniya.com/2016/article-analytics-google.jpeg" alt=""><br>2.因为之前加了<code>themes/new-vno/layout/_partial/google_analytics.ejs </code>文件，所以直接填到主题的配置文件<code>_config.yml</code>中即可,如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
+</pre></td><td class="code"><pre><span class="line">google_analytics: UA-78918255-1</span>
+</pre></td></tr></table></figure></p>
 <p>对于不能翻墙的同学，也给你准备了<a href="//tongji.baidu.com/">百度统计</a>，功能类似，配置也类似，这个是为了主题配置方便写的，其实直接把这段代码贴到头部，尾部文件都可以<br>1.注册百度统计的账户，添加网站，获取代码，找到其中的识别码（一串字符）<br><img src="//cdn.monniya.com/2016/article-analytics-baidu.jpeg" alt=""></p>
 <p>不想创建文件的可以直接更新github上的<a href="https://github.com/monniya/hexo-theme-new-vno" target="_blank" rel="external">主题</a>，可以下面的跳过2，3步骤<br>2.新建文件，放置位置：<code>themes/new-vno/layout/_partial/baidu_tongji.ejs</code></p>
-<p>添加统计脚本：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;% if (theme.baidu_tongji) &#123; %&gt;</div><div class="line">    &lt;script&gt;</div><div class="line">        var _hmt = _hmt || [];</div><div class="line">        (function() &#123;</div><div class="line">            var hm = document.createElement(&quot;script&quot;);</div><div class="line">            hm.src = &quot;//hm.baidu.com/hm.js?&lt;%= theme.baidu_tongji %&gt;&quot;;</div><div class="line">            var s = document.getElementsByTagName(&quot;script&quot;)[0]; </div><div class="line">            s.parentNode.insertBefore(hm, s);</div><div class="line">        &#125;)();</div><div class="line">    &lt;/script&gt;</div><div class="line">&lt;% &#125; %&gt;</div></pre></td></tr></table></figure></p>
+<p>添加统计脚本：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
+<span class="line">2</span>
+<span class="line">3</span>
+<span class="line">4</span>
+<span class="line">5</span>
+<span class="line">6</span>
+<span class="line">7</span>
+<span class="line">8</span>
+<span class="line">9</span>
+<span class="line">10</span>
+<span class="line">11</span>
+</pre></td><td class="code"><pre><span class="line">&lt;% if (theme.baidu_tongji) &#123; %&gt;</span>
+<span class="line">    &lt;script&gt;</span>
+<span class="line">        var _hmt = _hmt || [];</span>
+<span class="line">        (function() &#123;</span>
+<span class="line">            var hm = document.createElement(&quot;script&quot;);</span>
+<span class="line">            hm.src = &quot;//hm.baidu.com/hm.js?&lt;%= theme.baidu_tongji %&gt;&quot;;</span>
+<span class="line">            var s = document.getElementsByTagName(&quot;script&quot;)[0]; </span>
+<span class="line">            s.parentNode.insertBefore(hm, s);</span>
+<span class="line">        &#125;)();</span>
+<span class="line">    &lt;/script&gt;</span>
+<span class="line">&lt;% &#125; %&gt;</span>
+</pre></td></tr></table></figure></p>
 <p>3.在<code>themes/new-vno/layout/layout.ejs</code>文件加入引用：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(&apos;_partial/baidu_tongji&apos;) %&gt;</div></pre></td></tr></table></figure>
-<p>4.把识别码填到配置文件<code>_config.yml</code>中即可：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">baidu_tongji: 9cdad07c755fa23f6aced510c6760e87</div></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
+</pre></td><td class="code"><pre><span class="line">&lt;%- partial(&apos;_partial/baidu_tongji&apos;) %&gt;</span>
+</pre></td></tr></table></figure>
+<p>4.把识别码填到配置文件<code>_config.yml</code>中即可：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
+</pre></td><td class="code"><pre><span class="line">baidu_tongji: 9cdad07c755fa23f6aced510c6760e87</span>
+</pre></td></tr></table></figure></p>
 <blockquote>
 <p>文章访问统计</p>
 </blockquote>
 <p>这个功能喵神貌似没弄，说实话挺破坏美感的，我放来放去，只能把它放在右上角。凑合看吧。功能用了<a href="//ibruce.info/2015/04/04/busuanzi/">不蒜子大神</a>的，即统计pv（页面点击量）.<br>可以直接更新github上的<a href="https://github.com/monniya/hexo-theme-new-vno" target="_blank" rel="external">主题</a></p>
 <p>或者按以下使用步骤：<br>1.脚本引用</p>
-<p>在<code>themes/new-vno/layout/layout.ejs</code>文件中加入以下代码。当然，加在你的footer，header中都可以<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</div></pre></td></tr></table></figure></p>
+<p>在<code>themes/new-vno/layout/layout.ejs</code>文件中加入以下代码。当然，加在你的footer，header中都可以<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
+</pre></td><td class="code"><pre><span class="line">&lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</span>
+</pre></td></tr></table></figure></p>
 <p>2.把点击量显示在每篇文章的右上角</p>
-<p>在<code>themes/new-vno/layout/post.ejs</code>文件中加入以下代码：加在<code>post-meta</code>那个div中，即文章头部<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;span class=&quot;page-pv&quot;&gt;     </div><div class="line">     &amp;nbsp;阅读&amp;nbsp;&lt;span id=&quot;busuanzi_value_page_pv&quot;&gt;&lt;i class=&quot;fa fa-spinner fa-spin&quot;&gt;&lt;/i&gt;&lt;/span&gt;</div><div class="line">&lt;/span&gt;</div></pre></td></tr></table></figure></p>
-<p>其中：<code>id=”busuanzi_value_page_pv”</code>是脚本识别必填，其他都属于样式，<br>在统计数没加载出来之前有个齿轮转转效果，这个是参考潘神的，齿轮上用了font-awesome字体，也可以自己换。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;i class=&quot;fa fa-spinner fa-spin&quot;&gt;&lt;/i&gt;</div></pre></td></tr></table></figure></p>
+<p>在<code>themes/new-vno/layout/post.ejs</code>文件中加入以下代码：加在<code>post-meta</code>那个div中，即文章头部<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
+<span class="line">2</span>
+<span class="line">3</span>
+</pre></td><td class="code"><pre><span class="line">&lt;span class=&quot;page-pv&quot;&gt;     </span>
+<span class="line">     &amp;nbsp;阅读&amp;nbsp;&lt;span id=&quot;busuanzi_value_page_pv&quot;&gt;&lt;i class=&quot;fa fa-spinner fa-spin&quot;&gt;&lt;/i&gt;&lt;/span&gt;</span>
+<span class="line">&lt;/span&gt;</span>
+</pre></td></tr></table></figure></p>
+<p>其中：<code>id=”busuanzi_value_page_pv”</code>是脚本识别必填，其他都属于样式，<br>在统计数没加载出来之前有个齿轮转转效果，这个是参考潘神的，齿轮上用了font-awesome字体，也可以自己换。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
+</pre></td><td class="code"><pre><span class="line">&lt;i class=&quot;fa fa-spinner fa-spin&quot;&gt;&lt;/i&gt;</span>
+</pre></td></tr></table></figure></p>
 <p>3.美化样式</p>
-<p>在<code>/themes/new-vno/source/css/vno.styl</code>文件中加入以下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">.post-meta .page-pv &#123;</div><div class="line">    </div><div class="line">    margin-right: 0.5em;</div><div class="line">    font-size: 0.8em;</div><div class="line">    float: right;</div><div class="line">&#125;</div><div class="line">i.fa.fa-spinner.fa-spin &#123;</div><div class="line">    font-size: 0.8em;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>在<code>/themes/new-vno/source/css/vno.styl</code>文件中加入以下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
+<span class="line">2</span>
+<span class="line">3</span>
+<span class="line">4</span>
+<span class="line">5</span>
+<span class="line">6</span>
+<span class="line">7</span>
+<span class="line">8</span>
+<span class="line">9</span>
+</pre></td><td class="code"><pre><span class="line">.post-meta .page-pv &#123;</span>
+<span class="line">    </span>
+<span class="line">    margin-right: 0.5em;</span>
+<span class="line">    font-size: 0.8em;</span>
+<span class="line">    float: right;</span>
+<span class="line">&#125;</span>
+<span class="line">i.fa.fa-spinner.fa-spin &#123;</span>
+<span class="line">    font-size: 0.8em;</span>
+<span class="line">&#125;</span>
+</pre></td></tr></table></figure></p>
 <p>好了，搞定。<br>相关文章：<a href="//monniya.com/2016/02/24/theme-vno-diy">vno主题优化(一)</a><br>相关文章：<a href="//monniya.com/2016/03/29/theme-vno-diy2/">vno主题优化(二) 添加上下篇导航及优化disqus速度</a></p>
 
   </section>
