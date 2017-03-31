@@ -6,13 +6,13 @@ commmet: true
 
 #### 📖2017 
 {% readStream %}
-
+{% readItems https://monniya.com/2017/03/31/razoredge/ https://cdn.monniya.com/2017pic/book-razoredge.jpg 刀锋 2017-03 %}
 {% readItems https://book.douban.com/subject/1467022/ https://cdn.monniya.com/2017pic/book-sdzszm.jpg 上帝掷骰子吗 2017-03 %}
 {% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 我们仨 2017-02 %}
 {% readItems https://book.douban.com/subject/1313181/ https://cdn.monniya.com/2017pic/book-franklin.jpg 富兰克林自传 2017-02 %}
 {% readItems https://book.douban.com/subject/26889236/ https://cdn.monniya.com/2017pic/book-wdzysxsj.jpg 我的职业是小说家 2017-02 %}
 {% readItems https://book.douban.com/subject/6811366/ https://cdn.monniya.com/2017pic/book-motorcyle.jpg 禅与摩托车维修艺术 2017-02 %}
-{% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 十年一觉电影梦 2017-02 %}
+{% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-filmdream.jpg 十年一觉电影梦 2017-02 %}
 {% readItems https://book.douban.com/subject/26831788/ https://cdn.monniya.com/2017pic/book-lxyds.jpg 旅行与读书 2017-01 %}
 {% readItems https://monniya.com/2017/01/08/workrules/ https://cdn.monniya.com/2017pic/book-workrules.jpg 重新定义团队 2017-01-08 %}
 {% readItems https://book.douban.com/subject/26759508/ https://cdn.monniya.com/2017pic/book-musk.jpg 硅谷钢铁侠 2017-01 %}
