@@ -6,8 +6,8 @@ commmet: true
 
 #### 📖2017 
 {% readStream %}
-{% readItems https://monniya.com/2017/03/31/razoredge/ https://cdn.monniya.com/2017pic/book-razoredge.jpg 刀锋 2017-04 %}
-{% readItems https://book.douban.com/subject/1467022/ https://cdn.monniya.com/2017pic/book-sdzszm.jpg 上帝掷骰子吗 2017-04 %}
+{% readItems https://book.douban.com/subject/26275861/ https://cdn.monniya.com/2017pic/book-communication.jpg 沟通的艺术 2017-04 %}
+{% readItems https://book.douban.com/subject/3268582/ https://cdn.monniya.com/2017pic/book-prideandprejudice.jpg Pride-and- Prejudice 2017-04 %}
 {% readItems https://monniya.com/2017/03/31/razoredge/ https://cdn.monniya.com/2017pic/book-razoredge.jpg 刀锋 2017-03 %}
 {% readItems https://book.douban.com/subject/1467022/ https://cdn.monniya.com/2017pic/book-sdzszm.jpg 上帝掷骰子吗 2017-03 %}
 {% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 我们仨 2017-02 %}
