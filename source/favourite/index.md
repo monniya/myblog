@@ -7,7 +7,7 @@ commmet: true
 #### 📖2017 
 {% readStream %}
 {% readItems https://book.douban.com/subject/26275861/ https://cdn.monniya.com/2017pic/book-communication.jpg 沟通的艺术 2017-04 %}
-{% readItems https://book.douban.com/subject/3268582/ https://cdn.monniya.com/2017pic/book-prideandprejudice.jpg Pride-and- Prejudice 2017-04 %}
+{% readItems https://book.douban.com/subject/3268582/ https://cdn.monniya.com/2017pic/book-prideandprejudice.jpg Pride-and-Prejudice 2017-04 %}
 {% readItems https://monniya.com/2017/03/31/razoredge/ https://cdn.monniya.com/2017pic/book-razoredge.jpg 刀锋 2017-03 %}
 {% readItems https://book.douban.com/subject/1467022/ https://cdn.monniya.com/2017pic/book-sdzszm.jpg 上帝掷骰子吗 2017-03 %}
 {% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 我们仨 2017-02 %}
@@ -60,6 +60,8 @@ commmet: true
 {% readItems https://movie.douban.com/subject/24751756/ https://cdn.monniya.com/2016/movie-laopaoer.jpg 老炮儿 %}
 {% readItems https://movie.douban.com/subject/2338055/ https://cdn.monniya.com/2016/movie-westworld.jpg 西部世界 %}
 {% readItems https://movie.douban.com/subject/4023638/ https://cdn.monniya.com/2016/movie-kingspeech.jpg 国王的演讲 %}
+{% readItems https://movie.douban.com/subject/1297359/ https://cdn.monniya.com/2016/movie-princessmononoke.jpg 幽灵公主 %}
+{% readItems https://movie.douban.com/subject/1291561/ https://cdn.monniya.com/2016/movie-qyqx.jpg 千与千寻 %}
 {% readItems https://movie.douban.com/subject/26366465/ https://cdn.monniya.com/2016/movie-shaonvshidai.jpg 我的少女时代 %}
 {% readItems https://book.douban.com/subject/1483894/ https://cdn.monniya.com/2016/movie-warcraft.jpg 魔兽 %}
 {% readItems https://book.douban.com/subject/1034282/ https://cdn.monniya.com/2016/movie-xman.jpg xman %}
