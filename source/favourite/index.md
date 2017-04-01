@@ -6,6 +6,8 @@ commmet: true
 
 #### 📖2017 
 {% readStream %}
+{% readItems https://monniya.com/2017/03/31/razoredge/ https://cdn.monniya.com/2017pic/book-razoredge.jpg 刀锋 2017-04 %}
+{% readItems https://book.douban.com/subject/1467022/ https://cdn.monniya.com/2017pic/book-sdzszm.jpg 上帝掷骰子吗 2017-04 %}
 {% readItems https://monniya.com/2017/03/31/razoredge/ https://cdn.monniya.com/2017pic/book-razoredge.jpg 刀锋 2017-03 %}
 {% readItems https://book.douban.com/subject/1467022/ https://cdn.monniya.com/2017pic/book-sdzszm.jpg 上帝掷骰子吗 2017-03 %}
 {% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 我们仨 2017-02 %}
@@ -47,8 +49,9 @@ commmet: true
 >MOVIES 
 
 {% readStream %}
-{% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 推手 %}
-{% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 侧耳倾听 %}
+{% readItems https://movie.douban.com/subject/1307811/ https://cdn.monniya.com/2017pic/movie-kikidelivery.jpg 魔女宅急便 %}
+{% readItems https://movie.douban.com/subject/1306939/ https://cdn.monniya.com/2017pic/movie-pushinghand.jpg 推手 %}
+{% readItems https://movie.douban.com/subject/1297052/ https://cdn.monniya.com/2017pic/movie-whisper.jpg 侧耳倾听 %}
 {% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 重庆森林 %}
 {% readItems https://book.douban.com/subject/20430665/ https://cdn.monniya.com/2017pic/movie-lmys.jpg 流氓医生 %}
 {% readItems https://monniya.com/2017/02/02/duckweed/ https://cdn.monniya.com/2017pic/movie-xnxnd.jpg 新难兄难弟 %}
@@ -74,5 +77,7 @@ commmet: true
 {% readItems https://monniya.com/2016/02/13/mermaid/ https://cdn.monniya.com/2016/movie-mermaid.jpg 美人鱼 %}
 {% readItems https://monniya.com/2016/02/13/forrest-gump/ https://cdn.monniya.com/2016/movie-forrest-gump.jpeg 阿甘正传 %}
 {% readItems https://movie.douban.com/subject/1301168/ https://cdn.monniya.com/2016/movie-whcl.jpg 卧虎藏龙 %}
+{% readItems https://movie.douban.com/subject/1291583/ https://cdn.monniya.com/2016/movie-castlesky.jpg 天空之城 %}
+{% readItems https://movie.douban.com/subject/1291560/ https://cdn.monniya.com/2016/movie-totoro.jpg 龙猫 %}
 
 {% endreadStream %}
