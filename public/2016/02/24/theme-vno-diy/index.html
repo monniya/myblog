@@ -165,37 +165,11 @@
 <blockquote>
 <p>2.24-2更新bug 文章分页问题</p>
 </blockquote>
-<p>文章列表分页跳转有问题，点击下一页跳回主页<br>简单的解决方法是不采用分页，修改全局配置文件<code>_config.yml</code>,设置<code>per_page: 0</code> ，但是大部分人还是希望有分页的。<br>查看了下源代码，其实翻页是没问题的，只是在上面被盖了一个蒙层，原因是在<code>page</code>分页时，<code>header</code>里面的<code>css</code>没有加上<code>panel-cover–collapsed</code>样式<br>修复分页办法如下：<br>修改js文件地址：<code>themes/new-vno/source/js/main.js</code><br>具体调整：<br>在<code>$(document).ready(function()</code> 中增加下面函数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
-<span class="line">2</span>
-<span class="line">3</span>
-</pre></td><td class="code"><pre><span class="line">if (window.location.pathname.substring(0, 6) == &quot;/page/&quot;) &#123;</span>
-<span class="line">   $(&apos;.panel-cover&apos;).addClass(&apos;panel-cover--collapsed&apos;);</span>
-<span class="line"> &#125;</span>
-</pre></td></tr></table></figure></p>
+<p>文章列表分页跳转有问题，点击下一页跳回主页<br>简单的解决方法是不采用分页，修改全局配置文件<code>_config.yml</code>,设置<code>per_page: 0</code> ，但是大部分人还是希望有分页的。<br>查看了下源代码，其实翻页是没问题的，只是在上面被盖了一个蒙层，原因是在<code>page</code>分页时，<code>header</code>里面的<code>css</code>没有加上<code>panel-cover–collapsed</code>样式<br>修复分页办法如下：<br>修改js文件地址：<code>themes/new-vno/source/js/main.js</code><br>具体调整：<br>在<code>$(document).ready(function()</code> 中增加下面函数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">if (window.location.pathname.substring(0, 6) == &quot;/page/&quot;) &#123;</div><div class="line">   $(&apos;.panel-cover&apos;).addClass(&apos;panel-cover--collapsed&apos;);</div><div class="line"> &#125;</div></pre></td></tr></table></figure></p>
 <blockquote>
 <p>2.24更新bug 代码块样式问题</p>
 </blockquote>
-<p> 使用代码块时，列表会超出屏幕显示，而不是自动出横向滚动条<br>调整样式代码：<br>样式位置：<code>/themes/new-vno/source/css/vno.styl</code><br>具体调整：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span>
-<span class="line">2</span>
-<span class="line">3</span>
-<span class="line">4</span>
-<span class="line">5</span>
-<span class="line">6</span>
-<span class="line">7</span>
-<span class="line">8</span>
-<span class="line">9</span>
-<span class="line">10</span>
-</pre></td><td class="code"><pre><span class="line">table &#123;</span>
-<span class="line">  border-collapse: collapse;</span>
-<span class="line">  border-spacing: 0;</span>
-<span class="line">  width: 100%;</span>
-<span class="line">  table-layout: fixed;</span>
-<span class="line">&#125;</span>
-<span class="line">table td:first-child &#123;</span>
-<span class="line">   width: 3%;</span>
-<span class="line">   text-align: center;</span>
-<span class="line">&#125;</span>
-</pre></td></tr></table></figure></p>
+<p> 使用代码块时，列表会超出屏幕显示，而不是自动出横向滚动条<br>调整样式代码：<br>样式位置：<code>/themes/new-vno/source/css/vno.styl</code><br>具体调整：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">table &#123;</div><div class="line">  border-collapse: collapse;</div><div class="line">  border-spacing: 0;</div><div class="line">  width: 100%;</div><div class="line">  table-layout: fixed;</div><div class="line">&#125;</div><div class="line">table td:first-child &#123;</div><div class="line">   width: 3%;</div><div class="line">   text-align: center;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>相关文章：<a href="//monniya.com/2016/03/29/theme-vno-diy2/">vno主题优化(二) 添加上下篇导航及优化disqus速度</a><br>相关文章：<a href="//monniya.com/2016/06/14/article-analytics/">vno主题优化(三) 添加博客统计</a></p>
 
   </section>
@@ -231,10 +205,8 @@
 
 下载安装hexo插件
 
-1
-npm install hexo-generator-feed --save
-
-安装完成后，会在node_modules目录下生成hexo-generato
+1npm install hexo-generator-feed --save
+安装完成后，会在node_modules目录下生成hexo-generator-
                 &hellip;
                 </p>
                 <div class="post-list__meta"><time datetime="2016-02-24T10:38:13.000Z" class="post-list__meta--date date">2016-02-24</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
