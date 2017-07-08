@@ -6,6 +6,9 @@ commmet: true
 
 #### 📖2017 
 {% readStream %}
+
+{% readItems https://monniya.com/2017/07/08/economicwayofthinking/ https://cdn.monniya.com/2017pic/book-economicwayofthinking.jpg 经济学的思维方式 2017-07 %}
+{% readItems https://book.douban.com/subject/26435630/ https://cdn.monniya.com/2017pic/book-economics.jpg 经济学原理 2017-07 %}
 {% readItems https://book.douban.com/subject/26275861/ https://cdn.monniya.com/2017pic/book-communication.jpg 沟通的艺术 2017-04 %}
 {% readItems https://book.douban.com/subject/3268582/ https://cdn.monniya.com/2017pic/book-prideandprejudice.jpg Pride-and-Prejudice 2017-04 %}
 {% readItems https://monniya.com/2017/03/31/razoredge/ https://cdn.monniya.com/2017pic/book-razoredge.jpg 刀锋 2017-03 %}
