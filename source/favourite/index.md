@@ -6,7 +6,8 @@ commmet: true
 
 #### 📖2017 
 {% readStream %}
-
+{% readItems https://book.douban.com/subject/2035179/ https://cdn.monniya.com/2017pic/book-animalfarm.jpg 动物农场 2017-07 %}
+{% readItems https://book.douban.com/subject/26698660/ https://cdn.monniya.com/2017pic/book-jrdyl.jpg 巨人的陨落 2017-07 %}
 {% readItems https://monniya.com/2017/07/08/economicwayofthinking/ https://cdn.monniya.com/2017pic/book-economicwayofthinking.jpg 经济学的思维方式 2017-07 %}
 {% readItems https://book.douban.com/subject/26435630/ https://cdn.monniya.com/2017pic/book-economics.jpg 经济学原理 2017-07 %}
 {% readItems https://book.douban.com/subject/26275861/ https://cdn.monniya.com/2017pic/book-communication.jpg 沟通的艺术 2017-04 %}
@@ -52,6 +53,8 @@ commmet: true
 >MOVIES 
 
 {% readStream %}
+{% readItems https://movie.douban.com/subject/1291585/ https://cdn.monniya.com/2017pic/movie-fzg.jpg 风之谷 %}
+{% readItems https://movie.douban.com/subject/1308807/ https://cdn.monniya.com/2017pic/movie-hedydcb.jpg 哈尔的移动城堡 %}
 {% readItems https://movie.douban.com/subject/1307811/ https://cdn.monniya.com/2017pic/movie-kikidelivery.jpg 魔女宅急便 %}
 {% readItems https://movie.douban.com/subject/1306939/ https://cdn.monniya.com/2017pic/movie-pushinghand.jpg 推手 %}
 {% readItems https://movie.douban.com/subject/1297052/ https://cdn.monniya.com/2017pic/movie-whisper.jpg 侧耳倾听 %}
