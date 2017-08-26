@@ -54,6 +54,11 @@ commmet: true
 >MOVIES 
 
 {% readStream %}
+{% readItems https://movie.douban.com/subject/26235354/ https://cdn.monniya.com/2017pic/movie-wolfwarrior.jpg 权利的游戏7 %}
+{% readItems https://movie.douban.com/subject/26363254/ https://cdn.monniya.com/2017pic/movie-arrietty.jpg 战狼2 %}
+{% readItems https://movie.douban.com/subject/4202302/ https://cdn.monniya.com/2017pic/movie-arrietty.jpg 借东西的小人阿莉埃蒂 %}
+{% readItems https://movie.douban.com/subject/26683290/ https://cdn.monniya.com/2017pic/movie-yourname.jpg 你的名字 %}
+{% readItems https://movie.douban.com/subject/1482505/ https://cdn.monniya.com/2017pic/movie-dihaichuanshuo.jpg 地海传说 %}
 {% readItems https://movie.douban.com/subject/1291585/ https://cdn.monniya.com/2017pic/movie-fzg.jpg 风之谷 %}
 {% readItems https://movie.douban.com/subject/1308807/ https://cdn.monniya.com/2017pic/movie-hedydcb.jpg 哈尔的移动城堡 %}
 {% readItems https://movie.douban.com/subject/1307811/ https://cdn.monniya.com/2017pic/movie-kikidelivery.jpg 魔女宅急便 %}
