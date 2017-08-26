@@ -6,6 +6,7 @@ commmet: true
 
 #### 📖2017 
 {% readStream %}
+{% readItems https://book.douban.com/subject/25662922/ https://cdn.monniya.com/2017pic/book-goingtodie.jpg 维罗妮卡决定去死 2017-08 %}
 {% readItems https://book.douban.com/subject/2035179/ https://cdn.monniya.com/2017pic/book-animalfarm.jpg 动物农场 2017-07 %}
 {% readItems https://book.douban.com/subject/26698660/ https://cdn.monniya.com/2017pic/book-jrdyl.jpg 巨人的陨落 2017-07 %}
 {% readItems https://monniya.com/2017/07/08/economicwayofthinking/ https://cdn.monniya.com/2017pic/book-economicwayofthinking.jpg 经济学的思维方式 2017-07 %}
