@@ -4,26 +4,22 @@ commmet: true
 ---
 >BOOKS 
 
-#### 📖2017-02 To Read List
+#### 📖2017 
 {% readStream %}
-{% readItems https://book.douban.com/subject/26846606/ https://cdn.monniya.com/2017pic/book-character.jpg 品格之路 2017-01 %}
+{% readItems https://book.douban.com/subject/2035179/ https://cdn.monniya.com/2017pic/book-animalfarm.jpg 动物农场 2017-07 %}
+{% readItems https://book.douban.com/subject/26698660/ https://cdn.monniya.com/2017pic/book-jrdyl.jpg 巨人的陨落 2017-07 %}
+{% readItems https://monniya.com/2017/07/08/economicwayofthinking/ https://cdn.monniya.com/2017pic/book-economicwayofthinking.jpg 经济学的思维方式 2017-07 %}
+{% readItems https://book.douban.com/subject/26435630/ https://cdn.monniya.com/2017pic/book-economics.jpg 经济学原理 2017-07 %}
+{% readItems https://book.douban.com/subject/3211779/ https://cdn.monniya.com/2017pic/book-xyrxdxs.jpg 嫌疑人x的献身 2017-06 %}
+{% readItems https://book.douban.com/subject/26275861/ https://cdn.monniya.com/2017pic/book-communication.jpg 沟通的艺术 2017-04 %}
+{% readItems https://book.douban.com/subject/3268582/ https://cdn.monniya.com/2017pic/book-prideandprejudice.jpg Pride-and-Prejudice 2017-04 %}
+{% readItems https://monniya.com/2017/03/31/razoredge/ https://cdn.monniya.com/2017pic/book-razoredge.jpg 刀锋 2017-03 %}
+{% readItems https://book.douban.com/subject/1467022/ https://cdn.monniya.com/2017pic/book-sdzszm.jpg 上帝掷骰子吗 2017-03 %}
 {% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 我们仨 2017-02 %}
 {% readItems https://book.douban.com/subject/1313181/ https://cdn.monniya.com/2017pic/book-franklin.jpg 富兰克林自传 2017-02 %}
 {% readItems https://book.douban.com/subject/26889236/ https://cdn.monniya.com/2017pic/book-wdzysxsj.jpg 我的职业是小说家 2017-02 %}
 {% readItems https://book.douban.com/subject/6811366/ https://cdn.monniya.com/2017pic/book-motorcyle.jpg 禅与摩托车维修艺术 2017-02 %}
-{% readItems https://book.douban.com/subject/26846606/ https://cdn.monniya.com/2017pic/book-character.jpg 品格之路 2017-01 %}
-{% endreadStream %}
-
-#### 📖2017-02 
-{% readStream %}
-
-{% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-wms.jpg 十年一觉电影梦 2017-02 %}
-
-{% endreadStream %}
-
-#### 📖2017-01
-{% readStream %}
-
+{% readItems https://book.douban.com/subject/1052212/ https://cdn.monniya.com/2017pic/book-filmdream.jpg 十年一觉电影梦 2017-02 %}
 {% readItems https://book.douban.com/subject/26831788/ https://cdn.monniya.com/2017pic/book-lxyds.jpg 旅行与读书 2017-01 %}
 {% readItems https://monniya.com/2017/01/08/workrules/ https://cdn.monniya.com/2017pic/book-workrules.jpg 重新定义团队 2017-01-08 %}
 {% readItems https://book.douban.com/subject/26759508/ https://cdn.monniya.com/2017pic/book-musk.jpg 硅谷钢铁侠 2017-01 %}
@@ -58,8 +54,11 @@ commmet: true
 >MOVIES 
 
 {% readStream %}
-{% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 推手 %}
-{% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 侧耳倾听 %}
+{% readItems https://movie.douban.com/subject/1291585/ https://cdn.monniya.com/2017pic/movie-fzg.jpg 风之谷 %}
+{% readItems https://movie.douban.com/subject/1308807/ https://cdn.monniya.com/2017pic/movie-hedydcb.jpg 哈尔的移动城堡 %}
+{% readItems https://movie.douban.com/subject/1307811/ https://cdn.monniya.com/2017pic/movie-kikidelivery.jpg 魔女宅急便 %}
+{% readItems https://movie.douban.com/subject/1306939/ https://cdn.monniya.com/2017pic/movie-pushinghand.jpg 推手 %}
+{% readItems https://movie.douban.com/subject/1297052/ https://cdn.monniya.com/2017pic/movie-whisper.jpg 侧耳倾听 %}
 {% readItems https://movie.douban.com/subject/1291999/ https://cdn.monniya.com/2017pic/movie-cqsl.jpg 重庆森林 %}
 {% readItems https://book.douban.com/subject/20430665/ https://cdn.monniya.com/2017pic/movie-lmys.jpg 流氓医生 %}
 {% readItems https://monniya.com/2017/02/02/duckweed/ https://cdn.monniya.com/2017pic/movie-xnxnd.jpg 新难兄难弟 %}
@@ -68,6 +67,8 @@ commmet: true
 {% readItems https://movie.douban.com/subject/24751756/ https://cdn.monniya.com/2016/movie-laopaoer.jpg 老炮儿 %}
 {% readItems https://movie.douban.com/subject/2338055/ https://cdn.monniya.com/2016/movie-westworld.jpg 西部世界 %}
 {% readItems https://movie.douban.com/subject/4023638/ https://cdn.monniya.com/2016/movie-kingspeech.jpg 国王的演讲 %}
+{% readItems https://movie.douban.com/subject/1297359/ https://cdn.monniya.com/2017pic/movie-princessmononoke.jpg 幽灵公主 %}
+{% readItems https://movie.douban.com/subject/1291561/ https://cdn.monniya.com/2017pic/movie-qyqx.jpg 千与千寻 %}
 {% readItems https://movie.douban.com/subject/26366465/ https://cdn.monniya.com/2016/movie-shaonvshidai.jpg 我的少女时代 %}
 {% readItems https://book.douban.com/subject/1483894/ https://cdn.monniya.com/2016/movie-warcraft.jpg 魔兽 %}
 {% readItems https://book.douban.com/subject/1034282/ https://cdn.monniya.com/2016/movie-xman.jpg xman %}
@@ -85,5 +86,7 @@ commmet: true
 {% readItems https://monniya.com/2016/02/13/mermaid/ https://cdn.monniya.com/2016/movie-mermaid.jpg 美人鱼 %}
 {% readItems https://monniya.com/2016/02/13/forrest-gump/ https://cdn.monniya.com/2016/movie-forrest-gump.jpeg 阿甘正传 %}
 {% readItems https://movie.douban.com/subject/1301168/ https://cdn.monniya.com/2016/movie-whcl.jpg 卧虎藏龙 %}
+{% readItems https://movie.douban.com/subject/1291583/ https://cdn.monniya.com/2017pic/movie-castlesky.jpg 天空之城 %}
+{% readItems https://movie.douban.com/subject/1291560/ https://cdn.monniya.com/2017pic/movie-totoro.jpg 龙猫 %}
 
 {% endreadStream %}
