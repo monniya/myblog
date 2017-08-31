@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <title>使用github＋hexo搭建静态blog | Monniya</title>
+    <meta name="renderer" content="webkit">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="一只萌哒哒的兔子&lt;br /&gt;走在产品进阶之路">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="使用github＋hexo搭建静态blog | Monniya">
+    <meta name="twitter:description" content="一只萌哒哒的兔子&lt;br /&gt;走在产品进阶之路">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="使用github＋hexo搭建静态blog | Monniya">
+    <meta property="og:description" content="一只萌哒哒的兔子&lt;br /&gt;走在产品进阶之路">
+
+    
+    <meta name="author" content="Monniya">
+    
+    <link rel="stylesheet" href="/css/vno.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+    
+    <link rel="icon" href="/images/avatar-small.png">
+    
+
+    <meta name="generator" content="hexo"/>
+    
+    <link rel="alternate" type="application/rss+xml" title="Monniya" href="/atom.xml">
+    
+
+    <link rel="canonical" href="https://monniya.com/2016/01/10/git-hexo/"/>
+
+                 
+</head>
+
+<body class="home-template no-js">
+    <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+<header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+  <div class="panel-main">
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        <a href="/" title="前往 Monniya 的主页"><img src="/images/avatar.jpg" width="80" alt="Monniya logo" class="panel-cover__logo logo" /></a>
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for Monniya">Monniya</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">简单，美好，奋发</span>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">一只萌哒哒的兔子<br />走在产品进阶之路</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+        <div class="navigation-wrapper">
+          <div>
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="Visit the blog" class="blog-button">Blog</a></li>
+            
+              <li class="navigation__item"><a href="/favourite">黄金屋</a></li>
+            
+              <li class="navigation__item"><a href="/favourite/time.html">时光机</a></li>
+            
+              <li class="navigation__item"><a href="/favourite/image.html">幻想间</a></li>
+            
+              <li class="navigation__item"><a href="/aboutme">关于我</a></li>
+            
+            </ul>
+          </nav>
+          </div>
+          <div>
+          <nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  <!-- Weibo-->
+  
+
+  <!-- Github -->
+  
+  <li class="navigation__item">
+    <a href="https://github.com/monniya" title="GitHub" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+
+
+<!-- Stack Overflow -->
+        
+
+  <!-- Google Plus -->
+  
+
+<!-- Facebook -->
+
+  
+<!-- Twitter -->
+
+  <li class="navigation__item">
+    <a href="https://twitter.com/onlymonniya" title="Twitter" target="_blank">
+      <i class='social fa fa-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+
+  
+
+  <li class="navigation__item">
+    <a href="/atom.xml" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+
+
+  </ul>
+</nav>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay cover-purple"></div>
+  </div> 
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single">
+
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2016-01-10T05:42:11.000Z" class="post-list__meta--date date">2016-01-10</time> &#8226; <span class="post-meta__tags tags">于 
+  <a class="tag-link" href="/tags/敲敲码/">敲敲码</a>
+ </span>
+      <span class="page-pv">
+       Read <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+      </span> 
+   
+    </div>
+    <h1 class="post-title">使用github＋hexo搭建静态blog</h1>
+  </header>
+
+  <section class="post">
+    <p>WD自从被刷了多次固件后，访问速度越来越慢，并发量也是瓶颈，听从小熊的建议，开始采用静态blog方式。放弃臃肿的wordpress后也让blog变得简洁无比。写作心情也越来越好（明明没写几篇orz）</p>
+<p>进入正题：下面就来说说如何用github＋hexo搭建静态blog<br><a id="more"></a></p>
+<h2 id="环境部署"><a href="#环境部署" class="headerlink" title="环境部署"></a>环境部署</h2><p>需要安装以下内容：</p>
+<ul>
+<li>git</li>
+<li>Node.js</li>
+<li>hexo</li>
+</ul>
+<p><a href="https://hexo.io" target="_blank" rel="external">hexo官网资料参考链接</a></p>
+<p>使用brew安装npm （Node.js 的模块依赖管理工具）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install npm</div></pre></td></tr></table></figure></p>
+<p>安装git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install git</div></pre></td></tr></table></figure></p>
+<p><a href="https://pages.github.com/" target="_blank" rel="external">git搭建blog官网资料参考链接</a><br>新建git仓库作为静态网站的存放位置<br>命名规则要求为：git账户名.github.io<br>可以先在仓库上新建index.html测试下网址是否有效</p>
+<p>安装hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
+<p>初始化hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo init &lt;yourfolder&gt;</div><div class="line"><span class="built_in">cd</span> &lt;yourfolder&gt;</div><div class="line">npm install</div></pre></td></tr></table></figure></p>
+<p>安装hexo部署git环境</p>
+<pre><code class="bash">npm install hexo-deployer-git --save
+</code></pre>
+<p>修改配置文件_config.yml</p>
+<pre><code class="bash">deploy:
+  <span class="built_in">type</span>: git
+  repo: https://github.com/gitusername/gitusername.github.io.git
+</code></pre>
+<p>至此基础环境搭建完毕</p>
+<p>若需绑定特定域名，则先在hexo初始化的文件夹<yourfolder>下面新建CNAME文件，写入域名<br>再将域名的dns解析增加两条a记录，解析到github服务器192.30.252.153和192.30.252.154</yourfolder></p>
+<h2 id="博客写作"><a href="#博客写作" class="headerlink" title="博客写作"></a>博客写作</h2><p>hexo自带hello－world文章。只需两步命令即可看到网站全貌</p>
+<pre><code class="bash">hexo generate //简写hexo g
+hexo deploy //简写hexo d
+</code></pre>
+<p>访问<a href="https://monniya.github.io" target="_blank" rel="external">https://monniya.github.io</a>或者<a href="https://monniya.com">https://monniya.com</a></p>
+<p>generate为生成静态文件，deploy为提交到git，现在可以去仓库中看到提交的内容。<br>但若每次修改一点内容就提交一次，毕竟不方便。<br>请使用命令：</p>
+<pre><code class="bash">hexo server //简写hexo s
+＃INFO  Hexo is running at //0.0.0.0:4000/. Press Ctrl+C to stop.
+</code></pre>
+<p>即启动本地预览，访问本地地址//0.0.0.0:4000/ 即可，修改后刷新地址即可看到效果，满意后再deploy到git发布即可</p>
+<p>看完了helloworld就可以开始新建写自己的文章了<br>新建文章命令：</p>
+<pre><code class="bash">hexo new [layout] &lt;title&gt;
+</code></pre>
+<p>Hexo 有三种自带布局：post、page 和 draft，默认post，title即为静态页面地址栏标题<br>新建完成后可以在目录/source/_posts/看到新建的文章：title.md，此时还未编译成静态文件，（mac用户建议用visual studio code软件编写，微软官网下载即可，轻便好用。）<br>说说基础的编辑：进入md文件，首先编辑Front-matter<br>即文件最上方以 — 分隔的区域，用于指定文件基础信息，如文章显示名称，发布时间，评论开启等等</p>
+<pre><code class="bash">---  
+title: 使用github＋hexo搭建静态blog
+date: 2016-01-10 13:42:11
+tags: [github, hexo, blog, cname]
+comments: <span class="literal">true</span>
+categories: skills
+---
+</code></pre>
+<p>接着就可以愉快的写作啦，这里采用markdown通用格式编写。<br>Markdown 是一种轻量级标记语言，它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。详情参见维基百科：<a href="https://zh.wikipedia.org/wiki/Markdown#.E4.BB.A3.E7.A0.81" target="_blank" rel="external">Markdown</a><br>语法支持请戳<a href="//markdown-zh.readthedocs.org">Markdown中文文档</a></p>
+<p>ok。使用github＋hexo搭建静态blog基本步骤介绍完毕了。</p>
+<p>原有文章大部分都在wordpress上，明天想个法子把文章挪过来。</p>
+
+  </section>
+
+</article>
+
+<section class="read-more">
+           
+    
+               
+            <div class="read-more-item">
+                <span class="read-more-item-dim">Newer Post</span>
+                <h2 class="post-list__post-title post-title"><a href="/2016/01/11/zhangxiaolong/" title="张小龙效应">张小龙效应</a></h2>
+                <p class="excerpt">
+                
+                今天的互联网头条是当仁不让的小龙哥。从昨晚风靡朋友圈的情怀回忆图开始：你的第一个微信好友，第xx位微信用户，2015发了多少红包…，（不知是否如小龙哥所说，是出乎公关意料之外的流出产品）加上首次公开演讲的小龙哥，瞬间让今日的微信公开课门庭若市，虽说微信产品的魅力就在于无需推广，但如此用户蝴蝶效应般的蜂拥而至，此种”微信力量“令人叹服。
+                &hellip;
+                </p>
+                <div class="post-list__meta"><time datetime="2016-01-11T14:21:28.000Z" class="post-list__meta--date date">2016-01-11</time> &#8226; <span class="post-list__meta--tags tags">于 
+  <a class="tag-link" href="/tags/念念碎/">念念碎</a>
+</span><a class="btn-border-small" href="/2016/01/11/zhangxiaolong/">Read more</a></div>
+                           
+            </div>
+        
+        
+               
+            <div class="read-more-item">
+                <span class="read-more-item-dim">Older Post</span>
+                <h2 class="post-list__post-title post-title"><a href="/2016/01/10/hello-world/" title="Hello World">Hello World</a></h2>
+                <p class="excerpt">
+                
+                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+                &hellip;
+                </p>
+                <div class="post-list__meta"><time datetime="2016-01-10T03:42:11.000Z" class="post-list__meta--date date">2016-01-10</time> &#8226; <span class="post-list__meta--tags tags">于 
+  <a class="tag-link" href="/tags/敲敲码/">敲敲码</a>
+</span><a class="btn-border-small" href="/2016/01/10/hello-world/">Read more</a></div>
+                       
+            </div>
+        
+     
+   
+   
+  
+</section>
+
+  
+<section class="post-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'monniya'; 
+      
+  var disqus_identifier = '/2016/01/10/git-hexo/';
+  var disqus_title = '使用github＋hexo搭建静态blog';
+  var disqus_url = 'https://monniya.com/2016/01/10/git-hexo/';
+  
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          //dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+          dsq.src = 'https://a.disquscdn.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+            <footer class="footer">
+    <span class="footer__copyright">
+        &copy; 2017 Monniya - This site is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+    </span>
+    <span class="footer__copyright">
+        Powered by <a href="http://hexo.io">Hexo</a>. thanks to <a href="https://pages.github.com/">GitHub Pages</a> for free hosting.
+    </span>
+    <span class="footer__copyright">
+        This site uses <a href="https://github.com/monniya/hexo-theme-new-vno ">new-vno</a> theme, modified by <a href="https://monniya.com ">@Monniya</a> from <a href="https://github.com/lenbo-ma/hexo-theme-vno" target="_blank">Vno</a>, Original theme from <a href="http://github.com/onevcat/vno" target="_blank">onevcat</a>
+    </span>
+    
+</footer>
+
+
+        </div>
+    </div>
+
+     
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-78918255-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?9cdad07c755fa23f6aced510c6760e87";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+
+
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    
+</body>
+</html>
