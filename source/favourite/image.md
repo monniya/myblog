@@ -5,6 +5,7 @@ commmet: true
   
 
 {% timemachine %}
+{% part https://cdn.monniya.com/2017pic/image011.jpg https://cdn.monniya.com/2017pic/image011.jpg 签字笔勾线-坏人 2017-09-04-011 %}
 {% part https://cdn.monniya.com/2017pic/image010.jpg https://cdn.monniya.com/2017pic/image010.jpg 彩铅尝试-女生 2017-09-03-010 %}
 {% part https://cdn.monniya.com/2017pic/image009.jpg https://cdn.monniya.com/2017pic/image009.jpg 写实女生 2017-09-02-009 %}
 {% part https://cdn.monniya.com/2017pic/image008.jpg https://cdn.monniya.com/2017pic/image008.jpg hands 2017-08-29-008 %}
