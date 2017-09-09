@@ -5,6 +5,8 @@ commmet: true
   
 
 {% timemachine %}
+{% part https://cdn.monniya.com/2017pic/image013.jpg https://cdn.monniya.com/2017pic/image013.jpg 像哈士奇的狼 2017-09-09-013 %}
+{% part https://cdn.monniya.com/2017pic/image012.jpg https://cdn.monniya.com/2017pic/image012.jpg 肌肉男 2017-09-05-012 %}
 {% part https://cdn.monniya.com/2017pic/image011.jpg https://cdn.monniya.com/2017pic/image011.jpg 签字笔勾线-坏人 2017-09-04-011 %}
 {% part https://cdn.monniya.com/2017pic/image010.jpg https://cdn.monniya.com/2017pic/image010.jpg 彩铅尝试-女生 2017-09-03-010 %}
 {% part https://cdn.monniya.com/2017pic/image009.jpg https://cdn.monniya.com/2017pic/image009.jpg 写实女生 2017-09-02-009 %}
