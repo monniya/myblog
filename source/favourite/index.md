@@ -6,6 +6,10 @@ commmet: true
 
 #### 📖2017 
 {% readStream %}
+{% readItems https://book.douban.com/subject/26210607/ https://cdn.monniya.com/2017pic/book-time-immigration.jpg 时间移民 2017-10 %}
+{% readItems https://book.douban.com/subject/3265177/ https://cdn.monniya.com/2017pic/book-hulanhe.jpg 呼兰河传 2017-10 %}
+{% readItems https://book.douban.com/subject/10549934/ https://cdn.monniya.com/2017pic/book-xidaduo.jpg 悉达多 2017-09 %}
+{% readItems https://book.douban.com/subject/6558202/ https://cdn.monniya.com/2017pic/book-tolerance-and-freedom.jpg 容忍与自由 2017-09 %}
 {% readItems https://book.douban.com/subject/25662922/ https://cdn.monniya.com/2017pic/book-goingtodie.jpg 维罗妮卡决定去死 2017-08 %}
 {% readItems https://book.douban.com/subject/2035179/ https://cdn.monniya.com/2017pic/book-animalfarm.jpg 动物农场 2017-07 %}
 {% readItems https://book.douban.com/subject/26698660/ https://cdn.monniya.com/2017pic/book-jrdyl.jpg 巨人的陨落 2017-07 %}

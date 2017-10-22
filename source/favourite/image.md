@@ -5,6 +5,8 @@ commmet: true
   
 
 {% timemachine %}
+{% part https://cdn.monniya.com/2017pic/image020.jpg https://cdn.monniya.com/2017pic/image020.jpg tiger 2017-09-10-020 %}
+{% part https://cdn.monniya.com/2017pic/image019.jpg https://cdn.monniya.com/2017pic/image019.jpg side face 2017-09-10-019 %}
 {% part https://cdn.monniya.com/2017pic/image018.jpg https://cdn.monniya.com/2017pic/image018.jpg lip 2017-09-10-018 %}
 {% part https://cdn.monniya.com/2017pic/image017.jpg https://cdn.monniya.com/2017pic/image017.jpg girl 2017-09-10-017 %}
 {% part https://cdn.monniya.com/2017pic/image016.jpg https://cdn.monniya.com/2017pic/image016.jpg 孔角龙宝宝portosaurus 2017-09-10-016 %}
