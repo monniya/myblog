@@ -5,7 +5,9 @@ commmet: true
   
 
 {% timemachine %}
-{% part https://cdn.monniya.com/2017pic/image020.jpg https://cdn.monniya.com/2017pic/image020.jpg tiger 2017-09-10-020 %}
+{% part https://cdn.monniya.com/2017pic/image020.jpg https://cdn.monniya.com/2017pic/image022.jpg tiger 2018-01-06-022 %}
+{% part https://cdn.monniya.com/2017pic/image020.jpg https://cdn.monniya.com/2017pic/image021.jpg rabbit 2018-01-06-021 %}
+{% part https://cdn.monniya.com/2017pic/image020.jpg https://cdn.monniya.com/2017pic/image020.jpg tiger 2018-01-06-020 %}
 {% part https://cdn.monniya.com/2017pic/image019.jpg https://cdn.monniya.com/2017pic/image019.jpg sideFace 2017-09-10-019 %}
 {% part https://cdn.monniya.com/2017pic/image018.jpg https://cdn.monniya.com/2017pic/image018.jpg lip 2017-09-10-018 %}
 {% part https://cdn.monniya.com/2017pic/image017.jpg https://cdn.monniya.com/2017pic/image017.jpg girl 2017-09-10-017 %}
