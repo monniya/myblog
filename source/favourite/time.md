@@ -5,8 +5,12 @@ commmet: true
   
 
 {% timemachine %}
-{% part https://cdn.monniya.com/2017pic/snowanualmeeting02.jpg https://cdn.monniya.com/2018pic/snowanualmeeting02.jpg 雪中年会 2018-01-27 %}
-{% part https://cdn.monniya.com/2017pic/snowanualmeeting01.jpg https://cdn.monniya.com/2018pic/snowanualmeeting02.jpg 雪中年会 2018-01-27 %}
+{% part https://cdn.monniya.com/2018pic/snowanualmeeting06.jpg https://cdn.monniya.com/2018pic/snowanualmeeting06.jpg 雪中年会 2018-01-27 %}
+{% part https://cdn.monniya.com/2018pic/snowanualmeeting05.jpg https://cdn.monniya.com/2018pic/snowanualmeeting05.jpg 雪中年会 2018-01-27 %} 
+{% part https://cdn.monniya.com/2018pic/snowanualmeeting04.jpg https://cdn.monniya.com/2018pic/snowanualmeeting04.jpg 雪中年会 2018-01-27 %}
+{% part https://cdn.monniya.com/2018pic/snowanualmeeting03.jpg https://cdn.monniya.com/2018pic/snowanualmeeting03.jpg 雪中年会 2018-01-27 %}
+{% part https://cdn.monniya.com/2018pic/snowanualmeeting02.jpg https://cdn.monniya.com/2018pic/snowanualmeeting02.jpg 雪中年会 2018-01-27 %}
+{% part https://cdn.monniya.com/2018pic/snowanualmeeting01.jpg https://cdn.monniya.com/2018pic/snowanualmeeting01.jpg 雪中年会 2018-01-27 %}
 {% part https://cdn.monniya.com/2017pic/time002.jpg https://cdn.monniya.com/2017pic/time002.jpg 绿色 2017-07-18 %}
 {% part https://cdn.monniya.com/2017pic/time003.jpg https://cdn.monniya.com/2017pic/time003.jpg 日系 2017-07-18 %}
 {% part https://cdn.monniya.com/2017pic/time004.jpg https://cdn.monniya.com/2017pic/time004.jpg 美院 2017-07-18 %}
