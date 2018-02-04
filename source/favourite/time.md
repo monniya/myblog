@@ -5,8 +5,8 @@ commmet: true
   
 
 {% timemachine %}
-{% part https://cdn.monniya.com/2017pic/snowanualmeeting02.jpg https://cdn.monniya.com/2017pic/snowanualmeeting02.jpg 雪中年会 2018-01-27 %}
-{% part https://cdn.monniya.com/2017pic/snowanualmeeting01.jpg https://cdn.monniya.com/2017pic/snowanualmeeting02.jpg 雪中年会 2018-01-27 %}
+{% part https://cdn.monniya.com/2017pic/snowanualmeeting02.jpg https://cdn.monniya.com/2018pic/snowanualmeeting02.jpg 雪中年会 2018-01-27 %}
+{% part https://cdn.monniya.com/2017pic/snowanualmeeting01.jpg https://cdn.monniya.com/2018pic/snowanualmeeting02.jpg 雪中年会 2018-01-27 %}
 {% part https://cdn.monniya.com/2017pic/time002.jpg https://cdn.monniya.com/2017pic/time002.jpg 绿色 2017-07-18 %}
 {% part https://cdn.monniya.com/2017pic/time003.jpg https://cdn.monniya.com/2017pic/time003.jpg 日系 2017-07-18 %}
 {% part https://cdn.monniya.com/2017pic/time004.jpg https://cdn.monniya.com/2017pic/time004.jpg 美院 2017-07-18 %}
@@ -45,12 +45,6 @@ https://cdn.monniya.com/2017pic/time007.jpg 日落 2017-04-19 %}
 {% part //cdn.monniya.com/2016/spring-festival-read-1.jpg //monniya.com/2016/01/31/read-inspired/ 门前月色 2016-02-09 %}
 
 {% part //cdn.monniya.com/2016/spring-festival-read-2.jpg //monniya.com/2016/01/31/read-inspired/ 家乡的黄昏 2016-02-09 %}
-
-{% part https://imglf2.nosdn.127.net/img/OEk2MWpuSjk0RkxvOUd2bzZvSmJiS1pkRVdqdFh2TXRZa1o4US9uMlo5Q2s3bkhELzVQMGdRPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg //monniya.com/2016/01/31/read-inspired/ 文森修道院 2016-01-26 %}
-{% part https://imglf0.nosdn.127.net/img/OEk2MWpuSjk0RktFZVlPaVVWM2l0T0I1OFdsZE84emVHdmJZMmhyOEttV0tXZlRTTVkxb3pBPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg //book.douban.com/subject/26658379/ 杭城深秋 2015-12-13 %}
-{% part https://imglf.nosdn.127.net/img/OEk2MWpuSjk0RkkwMC9rMWpJNzhlcEpOeUdBNXZXRWl3WFhqS2JVRU83WXRqcG1UOGJpNHdnPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg //book.douban.com/subject/1946666/ 古城悠悠 2015-11-21 %}
-{% part https://imglf1.nosdn.127.net/img/OEk2MWpuSjk0RkxIRXJyZHkxRUhoakJwT0M1cCtkemFPeGtIZEwwYTVCWnBmNUNOWHEycmhnPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg //book.douban.com/subject/1946666/ 大圣大圣，你的金箍棒呢 2015-10-23 %}
-{% part https://imglf.nosdn.127.net/img/OEk2MWpuSjk0Rkk0VUcxR0VjSlhpY1o4ZUJ3QWYwOVJNcElDR2JRNkwvaz0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg //book.douban.com/subject/1946666/ 阴天泸沽湖 2015-08-19 %}
 
 
 {% endtimemachine %}
