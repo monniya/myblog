@@ -3,14 +3,23 @@ title:
 commmet: true
 ---
 >BOOKS 
-#### 📖2018
+
+#### 🎬2018
 {% readStream %}
-{% readItems https://movie.douban.com/subject/1300992/  https://cdn.monniya.com/2018pic/movie-perfectword.jpg完美的世界 %}
+{% readItems https://movie.douban.com/subject/24773958/  https://cdn.monniya.com/2018pic/movie-avengers.jpg 复仇者联盟3-无限战争 %}
+{% readItems https://movie.douban.com/subject/1300992/  https://cdn.monniya.com/2018pic/movie-perfectword.jpg 完美的世界 %}
+{% readItems https://movie.douban.com/subject/1294639/  https://cdn.monniya.com/2018pic/movie-braveheart.jpg 勇敢的心 %}
+{% readItems https://monniya.com/2018/04/05/walle/  https://cdn.monniya.com/2018pic/movie-walle.jpg 机器人瓦力 %}
+{% readItems https://movie.douban.com/subject/6786002/  https://cdn.monniya.com/2018pic/movie-Intouchables.jpg 触不可及 %}
+{% readItems https://movie.douban.com/subject/26393561/  https://cdn.monniya.com/2018pic/movie-xiaoluoli.jpg 小萝莉的猴神大叔 %}
+{% readItems https://movie.douban.com/subject/27042712/  https://cdn.monniya.com/2018pic/movie-shield5.jpg 神盾局特工5 %}
+{% readItems https://movie.douban.com/subject/24736278/  https://cdn.monniya.com/2018pic/movie-hexizoulang.jpg 河西走廊 %}
 {% endreadStream %}
 
 
-#### 📖2017 
+#### 🎬2017 
 {% readStream %}
+{% readItems https://movie.douban.com/subject/20495023/ https://cdn.monniya.com/2017pic/movie-coco.jpg 寻梦环游记 %}
 {% readItems https://movie.douban.com/subject/26235354/ https://cdn.monniya.com/2017pic/movie-gameofthrones7.jpg 权利的游戏7 %}
 {% readItems https://movie.douban.com/subject/26363254/ https://cdn.monniya.com/2017pic/movie-wolfwarrior.jpg 战狼2 %}
 {% readItems https://movie.douban.com/subject/4202302/ https://cdn.monniya.com/2017pic/movie-arrietty.jpg 借东西的小人阿莉埃蒂 %}
