@@ -65,7 +65,13 @@ mathjax: true
 
 > A1.1  现金流量比率
 
-$f(x)=ax+b$
+$f(x)=ax/b$
+
+$f(x)=ax\b$
+
+$f(x)=\frac{a}{b}$
+
+$f(x)=\frac{现金}{b}$
 
 $现金流量比率=\frac{现金流入}{短期负债}$
 
