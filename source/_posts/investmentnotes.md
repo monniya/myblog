@@ -1,7 +1,7 @@
 ---
 title: 投资小笔记
 date: 2017-03-12 12:47:16
-tags: 念念碎
+tags: 理理财
 mathjax: true
 ---
 ![](https://cdn.monniya.com/2017pic/investmentnotes-00.jpg)
