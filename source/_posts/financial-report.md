@@ -2,6 +2,7 @@
 title: 财报阅读学习笔记（一）
 date: 2018-07-21 22:25:40
 tags: 理理财
+mathjax: true
 ---
 
  了解基础理财知识后，对于系统投资的第一步，就是学习看公司的财务报表。
@@ -16,11 +17,12 @@ tags: 理理财
 
 > 三大财报（excel下载地址，最后代码更换即可）
 
-- 利润表 http://quotes.money.163.com/service/lrb_002415.html 
+- 利润表
+ http://quotes.money.163.com/service/lrb_002415.html 
 - 资产负债表
-http://quotes.money.163.com/service/zcfzb_002415.html
+ http://quotes.money.163.com/service/zcfzb_002415.html
 - 现金流量表
-http://quotes.money.163.com/service/xjllb_002415.html 
+ http://quotes.money.163.com/service/xjllb_002415.html 
 
 > 何为“利润表”？
 
@@ -28,7 +30,8 @@ http://quotes.money.163.com/service/xjllb_002415.html
 通常由：营收，成本，费用，营业外收入/支出，所得税，净利润等字段构成
 
 > 何为 “资产负债表”？
-资产 - 负债 = 股东权益
+
+**资产 - 负债 = 股东权益**
 
 从个人角度理解，资产大致包括流动资产（现金，股票，基金等），固定资产（房产），应收账款（朋友欠款等）；
 
@@ -59,4 +62,10 @@ http://quotes.money.163.com/service/xjllb_002415.html
 - 1、现金流量比率>100%
 - 2、现金流量允当比率>100%
 - 3、现金再投资比率>10%
+
+> A1.1  现金流量比率
+
+$f(x)=ax+b$
+
+$现金流量比率=现金流入/短期负债$
 
