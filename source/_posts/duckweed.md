@@ -18,4 +18,4 @@ tags: 观观影
  只是，历史总会在未来被翻看。这个时代发生过什么。
 
  ps：看到这个结尾，我陷入沉思。
-![](//cdn.monniya.com/2017pic/duckweed-01.jpg)
+![](//cdn.monniya.com/blogpic/2017/duckweed-01.jpg)

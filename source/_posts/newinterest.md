@@ -16,5 +16,5 @@ anyway，一项新的兴趣。学习画画。一种可以把脑海中的画面�
 我希望能坚持下去。开了一个新tab：[幻想间](https://monniya.com/favourite/image.html)。勉励自己。加油。
 从铅笔漫画开始。
 从临摹[Markcrilley大神的画开始](https://www.youtube.com/channel/UCno-YPZ8BiLrN0Wbl8qICFA)。
-![](//cdn.monniya.com/2017pic/newinterest-01.jpg)
+![](//cdn.monniya.com/blogpic/2017/newinterest-01.jpg)
 

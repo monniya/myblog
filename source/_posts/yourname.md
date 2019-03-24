@@ -5,7 +5,7 @@ tags: 观观影
 comments: true
 
 ---
-![](https://cdn.monniya.com/2017pic/yourname-01.jpg)
+![](https://cdn.monniya.com/blogpic/2017/yourname-01.jpg)
 或许平行时空下，还活着另外一个我。
 每一天的平安过活，都是在履行存在的意义。
 一部灾难幸存片。
