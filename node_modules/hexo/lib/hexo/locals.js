@@ -8,10 +8,10 @@ function Locals() {
 Locals.prototype.get = function(name) {
   if (typeof name !== 'string') throw new TypeError('name must be a string!');
 
-  var cache = this.cache[name];
+  let cache = this.cache[name];
 
   if (cache == null) {
-    var getter = this.getters[name];
+    const getter = this.getters[name];
     if (!getter) return;
 
     cache = this.cache[name] = getter();
@@ -24,15 +24,7 @@ Locals.prototype.set = function(name, value) {
   if (typeof name !== 'string') throw new TypeError('name must be a string!');
   if (value == null) throw new TypeError('value is required!');
 
-  var getter;
-
-  if (typeof value === 'function') {
-    getter = value;
-  } else {
-    getter = function() {
-      return value;
-    };
-  }
+  const getter = typeof value === 'function' ? value : () => value;
 
   this.getters[name] = getter;
   this.cache[name] = null;
@@ -56,14 +48,12 @@ Locals.prototype.invalidate = function() {
 };
 
 Locals.prototype.toObject = function() {
-  var result = {};
-  var keys = Object.keys(this.getters);
-  var key = '';
-  var item;
+  const result = {};
+  const keys = Object.keys(this.getters);
 
-  for (var i = 0, len = keys.length; i < len; i++) {
-    key = keys[i];
-    item = this.get(key);
+  for (let i = 0, len = keys.length; i < len; i++) {
+    const key = keys[i];
+    const item = this.get(key);
 
     if (item != null) result[key] = item;
   }

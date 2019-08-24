@@ -1,19 +1,18 @@
 'use strict';
 
-var common = require('./common');
-var Promise = require('bluebird');
-var yfm = require('hexo-front-matter');
-var pathFn = require('path');
-var util = require('hexo-util');
-var Pattern = util.Pattern;
+const common = require('./common');
+const Promise = require('bluebird');
+const yfm = require('hexo-front-matter');
+const { extname, relative } = require('path');
+const { Pattern } = require('hexo-util');
 
-module.exports = function(ctx) {
+module.exports = ctx => {
   function processPage(file) {
-    var Page = ctx.model('Page');
-    var path = file.path;
-    var doc = Page.findOne({source: path});
-    var config = ctx.config;
-    var timezone = config.timezone;
+    const Page = ctx.model('Page');
+    const { path } = file;
+    const doc = Page.findOne({source: path});
+    const { config } = ctx;
+    const { timezone } = config;
 
     if (file.type === 'skip' && doc) {
       return;
@@ -30,9 +29,9 @@ module.exports = function(ctx) {
     return Promise.all([
       file.stat(),
       file.read()
-    ]).spread(function(stats, content) {
-      var data = yfm(content);
-      var output = ctx.render.getOutput(path);
+    ]).spread((stats, content) => {
+      const data = yfm(content);
+      const output = ctx.render.getOutput(path);
 
       data.source = path;
       data.raw = content;
@@ -61,12 +60,11 @@ module.exports = function(ctx) {
           data.path += 'index';
         }
 
-        if (!pathFn.extname(data.path)) {
-          data.path += '.' + output;
+        if (!extname(data.path)) {
+          data.path += `.${output}`;
         }
       } else {
-        var extname = pathFn.extname(path);
-        data.path = path.substring(0, path.length - extname.length) + '.' + output;
+        data.path = `${path.substring(0, path.length - extname(path).length)}.${output}`;
       }
 
       if (!data.layout && output !== 'html' && output !== 'htm') {
@@ -75,7 +73,7 @@ module.exports = function(ctx) {
 
       // FIXME: Data may be inserted when reading files. Load it again to prevent
       // race condition. We have to solve this in warehouse.
-      var doc = Page.findOne({source: path});
+      const doc = Page.findOne({source: path});
 
       if (doc) {
         return doc.replace(data);
@@ -86,9 +84,9 @@ module.exports = function(ctx) {
   }
 
   function processAsset(file) {
-    var id = file.source.substring(ctx.base_dir.length).replace(/\\/g, '/');
-    var Asset = ctx.model('Asset');
-    var doc = Asset.findById(id);
+    const id = relative(ctx.base_dir, file.source).replace(/\\/g, '/');
+    const Asset = ctx.model('Asset');
+    const doc = Asset.findById(id);
 
     if (file.type === 'delete') {
       if (doc) {
@@ -107,7 +105,7 @@ module.exports = function(ctx) {
   }
 
   return {
-    pattern: new Pattern(function(path) {
+    pattern: new Pattern(path => {
       if (common.isTmpFile(path) || common.isMatch(path, ctx.config.exclude)) return;
 
       if (common.isHiddenFile(path) && !common.isMatch(path, ctx.config.include)) {
